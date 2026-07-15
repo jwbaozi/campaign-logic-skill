@@ -1,0 +1,13 @@
+# Private/local configuration
+config/private-runtime-rules.md
+SYSTEM_PROMPT.md
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log

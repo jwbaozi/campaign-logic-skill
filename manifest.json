@@ -1,0 +1,19 @@
+{
+  "name": "campaign-logic-skill",
+  "version": "1.1.0",
+  "language": "zh-CN",
+  "knowledge_base": {
+    "provider": "Tencent ima",
+    "url": "https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279",
+    "mode": "manual-link-first"
+  },
+  "entrypoints": [
+    "SKILL.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "SYSTEM_PROMPT.md"
+  ],
+  "features": [
+    "editable-ppt-blueprint"
+  ]
+}
