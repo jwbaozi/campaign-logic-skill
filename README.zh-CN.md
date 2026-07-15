@@ -1,3 +1,5 @@
+[English](README.md) | 简体中文
+
 # Campaign Logic Skill V1.1
 
 一套平台无关的营销策划方案逻辑检查配置包。
@@ -6,6 +8,7 @@
 
 - OpenAI Codex / Codex Cloud
 - Claude Code
+- WorkBuddy 等国内 Agent 工具
 - 支持 `SKILL.md`、`AGENTS.md`、系统提示词或项目规则文件的 Agent 工具
 - 其他可上传知识文件或项目说明文件的 Agent 软件
 
@@ -32,6 +35,21 @@
 2. `SKILL.md`
 3. `config/private-runtime-rules.md`
 4. 对应工作流
+
+## WorkBuddy 及其他国内 Agent
+
+如果平台支持上传知识文件、项目说明文件或系统提示词：
+
+1. 上传 `SKILL.md`
+2. 上传与当前任务相关的 `workflows/` 文件
+3. 将 `AGENTS.md` 作为项目规则或补充说明
+4. 上传需要分析的策划方案
+5. 提示 Agent 先读取规则，再开始分析
+
+示例提示词：
+
+请先读取 `SKILL.md` 和 `AGENTS.md`，
+再根据我上传的材料类型，选择 `workflows/` 中对应的工作流进行分析。
 
 ### 其他 Agent
 
