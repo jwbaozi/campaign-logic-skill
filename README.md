@@ -8,6 +8,8 @@ A cross-platform skill for reviewing, restructuring, and improving marketing cam
 
 It supports rough ideas, outlines, TXT files, Word documents, PDFs, PowerPoint files, screenshots, incomplete proposals, complete proposals, and campaign closing reports.
 
+![Knowledge Base Overview](assets/knowledge-base-overview.png)
+
 ## What It Does
 
 Campaign Logic Skill helps users:
@@ -119,8 +121,6 @@ This skill can be used together with a supporting Tencent ima knowledge base.
 Knowledge base link:
 
 https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
-
-![Knowledge Base Overview](assets/knowledge-base-overview.png)
 
 The knowledge base includes:
 
