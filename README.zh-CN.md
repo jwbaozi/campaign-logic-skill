@@ -74,8 +74,9 @@
 
 https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
 
-使用限制：
+![Knowledge Base Overview](assets/knowledge-base-overview.png)
 
+使用限制：
 - 可能需要微信扫码登录
 - 境外网络环境可能无法访问
 - 第一版不依赖自动连接
