@@ -14,6 +14,8 @@
 - 支持 `SKILL.md`、`AGENTS.md`、系统提示词或项目规则文件的 Agent 工具
 - 其他可上传知识文件或项目说明文件的 Agent 软件
 
+![Knowledge Base Overview](assets/knowledge-base-overview.png)
+
 ## 快速开始
 
 ### Codex / Codex Cloud
@@ -73,8 +75,6 @@
 腾讯 ima：
 
 https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
-
-![Knowledge Base Overview](assets/knowledge-base-overview.png)
 
 使用限制：
 - 可能需要微信扫码登录
