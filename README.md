@@ -122,6 +122,8 @@ Knowledge base link:
 
 https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
 
+![Knowledge Base Overview](assets/knowledge-base.png)
+
 The knowledge base includes:
 
 - platform materials
