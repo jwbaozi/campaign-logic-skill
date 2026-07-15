@@ -78,3 +78,61 @@ Example prompt:
 Please read AGENTS.md and SKILL.md first.
 Then select the appropriate workflow from the workflows folder
 and review the marketing proposal I provide.
+
+## Claude Code Setup
+
+1. Clone or download this repository.
+2. Place the repository in your Claude Code project folder.
+3. Make sure `CLAUDE.md` and `SKILL.md` are available.
+4. Ask Claude Code to read the relevant workflow before reviewing your proposal.
+
+Example prompt:
+
+Please read CLAUDE.md and SKILL.md first.  
+Then select the appropriate workflow based on the proposal material.
+
+## Knowledge Base
+
+This skill can be used together with a supporting Tencent ima knowledge base:
+
+https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
+
+Notes:
+
+- WeChat login may be required
+- Access is generally more reliable in mainland China
+- Overseas users may not be able to open the link
+- The skill can still work independently without the knowledge base
+
+## Repository Structure
+
+campaign-logic-skill/
+
+- README.md
+- README.zh-CN.md
+- SKILL.md
+- AGENTS.md
+- CLAUDE.md
+- CHANGELOG.md
+- manifest.json
+- workflows/
+- knowledge/
+- examples/
+- tests/
+
+## Current Version
+
+Version 1.1
+
+New in this version:
+
+- editable PowerPoint blueprint
+- one-sentence core strategy
+- strategy line restructuring
+- proposal outline restructuring
+- page-by-page editing boards
+- separation between client-facing and internal content
+
+## License
+
+MIT License
