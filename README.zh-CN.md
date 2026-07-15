@@ -1,3 +1,5 @@
+![Campaign Logic Skill](assets/readme-hero.png)
+
 [English](README.md) | 简体中文
 
 # Campaign Logic Skill V1.1
