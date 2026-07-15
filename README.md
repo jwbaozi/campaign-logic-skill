@@ -90,39 +90,72 @@ and review the marketing proposal I provide.
 
 Example prompt:
 
-Please read CLAUDE.md and SKILL.md first.  
+```text
+Please read CLAUDE.md and SKILL.md first.
 Then select the appropriate workflow based on the proposal material.
+```
+
+## WorkBuddy and Other Agent Tools
+
+If the platform supports knowledge files, project instructions, or system prompts:
+
+1. Upload `SKILL.md`.
+2. Upload the relevant files from the `workflows/` folder.
+3. Upload `AGENTS.md` as a project rule or supporting instruction.
+4. Upload the proposal materials you want to review.
+5. Ask the Agent to read the rules before starting the analysis.
+
+Example prompt:
+
+```text
+Please read SKILL.md and AGENTS.md first.
+Then select the appropriate workflow based on the materials I provide.
+```
 
 ## Knowledge Base
 
-This skill can be used together with a supporting Tencent ima knowledge base:
+This skill can be used together with a supporting Tencent ima knowledge base.
+
+Knowledge base link:
 
 https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
 
 ![Knowledge Base Overview](assets/knowledge-base-overview.png)
 
+The knowledge base includes:
+
+- platform materials
+- industry reports
+- consumer research
+- marketing cases
+- platform rules
+- methodologies
+- current trends
+
 Notes:
 
 - WeChat login may be required
-- Access is generally more reliable in mainland China
-- Overseas users may not be able to open the link
-- The skill can still work independently without the knowledge base
+- access is generally more reliable in mainland China
+- overseas users may not be able to open the link
+- the skill can still work independently without the knowledge base
 
 ## Repository Structure
 
+```text
 campaign-logic-skill/
-
-- README.md
-- README.zh-CN.md
-- SKILL.md
-- AGENTS.md
-- CLAUDE.md
-- CHANGELOG.md
-- manifest.json
-- workflows/
-- knowledge/
-- examples/
-- tests/
+├─ README.md
+├─ README.zh-CN.md
+├─ SKILL.md
+├─ AGENTS.md
+├─ CLAUDE.md
+├─ CHANGELOG.md
+├─ manifest.json
+├─ assets/
+├─ workflows/
+├─ knowledge/
+├─ examples/
+└─ tests/
+```
 
 ## Current Version
 
