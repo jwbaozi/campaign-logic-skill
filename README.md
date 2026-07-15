@@ -8,9 +8,9 @@ A cross-platform skill for reviewing, restructuring, and improving marketing cam
 
 It supports rough ideas, outlines, TXT files, Word documents, PDFs, PowerPoint files, screenshots, incomplete proposals, complete proposals, and campaign closing reports.
 
-![Knowledge Base Overview](assets/knowledge-base-overview.png)
-
 ## What It Does
+
+![Knowledge Base Overview](assets/knowledge-base-overview.png)
 
 Campaign Logic Skill helps users:
 
