@@ -1,6 +1,8 @@
-# Campaign Logic Skill
+![Campaign Logic Skill](assets/readme-hero.png)
 
 [English](README.md) | [简体中文](README.zh-CN.md)
+
+# Campaign Logic Skill
 
 A cross-platform skill for reviewing, restructuring, and improving marketing campaign proposals.
 
