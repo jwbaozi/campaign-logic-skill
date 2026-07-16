@@ -1,4 +1,4 @@
-![Campaign Logic Skill](assets/readme-hero.png)
+![Campaign Logic Skill](assets/readme-hero-e.png)
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -10,7 +10,7 @@ It supports rough ideas, outlines, TXT files, Word documents, PDFs, PowerPoint f
 
 ## What It Does
 
-![Knowledge Base Overview](assets/knowledge-base-overview.png)
+![Knowledge Base Overview](assets/skill-e.png)
 
 Campaign Logic Skill helps users:
 
@@ -122,7 +122,7 @@ Knowledge base link:
 
 https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
 
-![Knowledge Base Overview](assets/knowledge-base.png)
+![Knowledge Base Overview](assets/knowledgebase e.png)
 
 The knowledge base includes:
 
