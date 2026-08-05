@@ -1,24 +1,28 @@
 ![Campaign Logic Skill](assets/readme-hero.png)
 
-[English](README.md) \| 简体中文(README_CN.md)
+[English](README.md) \| [简体中文](README_CN.md)
 
 # AI Marketing Strategy Skill
 
-> 从 Campaign Logic Engine 到完整营销策划 Agent
+> From Campaign Logic Engine to Complete Marketing Strategy Agent
 
-AI营销策略 Skill 是一个面向营销策划、品牌、广告、市场人员的 AI
-辅助策划系统。
+AI Marketing Strategy Skill is an AI-assisted marketing strategy system
+designed for marketing planners, brand teams, advertising professionals,
+and business teams.
 
-项目从 Campaign Logic Skill 演进而来，保留原有 Campaign
-方案逻辑审核能力，并进一步扩展为覆盖：
+The project evolved from Campaign Logic Skill, originally created to
+help users review campaign proposal logic.
 
-需求分析 → 策略制定 → 知识调用 → 方案优化 → 表达优化 → 提案准备
+The upgraded version expands into a complete marketing strategy agent
+covering:
 
-的完整营销策略 Agent。
+Requirement Analysis → Strategy Planning → Knowledge Application →
+Proposal Optimization → Expression Improvement → Presentation
+Preparation
 
 ------------------------------------------------------------------------
 
-# 项目演进
+# Project Evolution
 
 Campaign Logic Skill
 
@@ -28,39 +32,38 @@ Campaign Logic Engine
 
 ↓
 
-AI营销策略 Skill
+AI Marketing Strategy Skill
 
-原 Campaign Logic 能力继续作为核心逻辑模块存在，不替代，而是扩展。
-
-------------------------------------------------------------------------
-
-# 核心能力
-
-## 1. Brief 与营销需求分析
-
-帮助用户理解：
-
--   客户 Brief
--   项目需求
--   商业目标
--   用户问题
--   营销挑战
-
-当信息不足时，不直接生成完整方案，而是先识别缺失信息。
+The original Campaign Logic capability remains as the core logic module
+and continues to be preserved.
 
 ------------------------------------------------------------------------
 
-## 2. 策略方法论支持
+# Core Capabilities
 
-支持：
+## 1. Marketing Requirement Analysis
 
--   市场环境分析
--   用户洞察
--   竞争分析
--   策略推导
--   增长规划
+Understand:
 
-内置方法论：
+-   Client briefs
+-   Business objectives
+-   Marketing challenges
+-   User needs
+-   Missing information
+
+The Skill identifies missing information before generating solutions.
+
+## 2. Strategy Methodology Support
+
+Support:
+
+-   Market analysis
+-   Consumer insight
+-   Competitive analysis
+-   Strategy development
+-   Growth planning
+
+Including:
 
 -   SWOT
 -   PEST
@@ -73,106 +76,78 @@ AI营销策略 Skill
 -   HBG
 -   HOOK
 -   KISS
--   麦肯锡七步法
+-   McKinsey Seven-Step Method
+
+## 3. Campaign Logic Review
+
+Inherited from the original Campaign Logic Skill.
+
+Review:
+
+-   Marketing objectives
+-   User insights
+-   Strategy logic
+-   Creative consistency
+-   Execution alignment
+-   User journey completeness
+-   Measurement design
+
+## 4. Marketing Knowledge System
+
+Includes:
+
+-   Strategy Methodology
+-   Brand Theory
+-   Presentation Models
+-   Advertising Knowledge
+-   Media Metrics
+-   Product Selling Points
+-   Marketing Expression
+
+## 5. Examples and Testing
+
+Includes:
+
+Examples: - Game launch campaigns - Product launch campaigns - Brand
+campaigns - Social media campaigns - Proposal review cases
+
+Testing: - Strategy planning tests - Campaign review tests - Knowledge
+routing tests - Output quality tests
 
 ------------------------------------------------------------------------
 
-## 3. Campaign 逻辑审核
+# Architecture
 
-继承 Campaign Logic Skill 核心能力。
+User Input
 
-检查：
+↓
 
--   营销目标
--   用户洞察
--   策略逻辑
--   创意一致性
--   执行动作匹配
--   用户路径完整性
--   指标设计合理性
+Workflow
 
-------------------------------------------------------------------------
+↓
 
-## 4. 营销知识体系调用
+Knowledge Routing
 
-新增知识体系：
+↓
 
--   策略方法论
--   品牌理论
--   方案呈现模型
--   广告知识
--   媒体指标
--   产品卖点
--   营销表达
+Knowledge Modules
 
-支持根据问题选择对应知识模块。
+↓
+
+Examples & Testing
+
+↓
+
+Marketing Strategy Output
 
 ------------------------------------------------------------------------
 
-## 5. 营销表达优化
-
-优化：
-
--   空泛表达
--   低价值描述
--   不专业表达
--   营销黑话
-
-提升方案商业表达能力。
-
-------------------------------------------------------------------------
-
-## 6. 方案呈现与提案准备
-
-支持：
-
--   PPT结构建议
--   模型选择
--   提案逻辑优化
--   客户角色模拟
-
-支持模拟：
-
--   品牌负责人
--   市场负责人
--   产品负责人
--   投放负责人
--   运营负责人
-
-------------------------------------------------------------------------
-
-# 项目结构
-
-    AI Marketing Strategy Skill
-
-    ├── Logic        逻辑层
-    ├── Knowledge    知识层
-    ├── Workflow     工作流
-    ├── Examples     案例库
-    └── Tests        测试体系
-
-------------------------------------------------------------------------
-
-# 支持平台
+# Supported Platforms
 
 -   GPTs
 -   Claude Code
 -   WorkBuddy
 -   Codex Agent
-
-------------------------------------------------------------------------
-
-# 项目初衷
-
-营销方案的问题往往不是缺少创意，而是：
-
--   目标不清晰
--   策略逻辑不足
--   方法选择困难
--   执行与策略脱节
--   商业价值表达不足
-
-本项目希望将营销策划经验、方法论和知识体系沉淀为可复用 AI 工作流。
 
 ------------------------------------------------------------------------
 
