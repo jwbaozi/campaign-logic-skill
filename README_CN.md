@@ -58,6 +58,8 @@ AI营销策略 Skill 是由 Campaign Logic Skill 升级而来的 AI
 -   内容营销模型
 -   增长模型
 
+![StrategyMethodology&PresentationModelCN](assets/StrategyMethodology&PresentationModelCN.png)
+
 ### 配套知识库
 
 腾讯 ima：
@@ -80,6 +82,8 @@ https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c4
 支持：
 
 市场理解 → 策略制定 → 方案论证 → 营销执行
+
+![knowledgeCN](assets/knowledgeCN.png)
 
 使用限制：
 
