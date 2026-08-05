@@ -1,17 +1,209 @@
-# CLAUDE.md
+# CLAUDE.md - AI Marketing Strategy Skill v2.0
 
-Use the campaign proposal logic review skill in this repository.
+## 项目定位
 
-Before responding:
+AI Marketing Strategy Skill 是一个营销策略分析与优化 Agent。
 
-1. Read `SKILL.md`.
-2. Read `config/private-runtime-rules.md`.
-3. Select the matching workflow in `workflows/`.
-4. Identify user role, material maturity, and proposal type.
-5. Give an overall judgment before asking questions.
-6. Ask only a few questions that could materially change the judgment.
-7. Continue when data is unavailable and state the analysis boundary.
-8. Separate customer-facing recommendations from internal checks.
-9. Never invent data, cases, sources, budgets, resources, or outcomes.
+它由 Campaign Logic Skill 演进而来。
 
-10. When an editable PowerPoint is requested, read `workflows/editable-ppt.md` and `config/ppt-output-spec.md`, then generate a native editable `.pptx` file.
+核心目标：
+
+将营销策划经验沉淀为可复用的 AI 工作流程。
+
+---
+
+# Claude Code 工作原则
+
+Claude Code 在处理本项目时：
+
+1. 优先理解现有项目结构；
+2. 保留已有能力；
+3. 在原有框架上扩展；
+4. 不随意删除历史模块；
+5. 修改前先分析影响范围。
+
+---
+
+# 项目结构理解
+
+主要目录：
+
+## knowledge
+
+知识体系。
+
+包含：
+
+- 行业与市场知识
+- 策略方法论
+- 品牌理论
+- 广告知识
+- 产品卖点
+- 投放指标
+- 营销表达
+- 方案呈现模型
+
+---
+
+## logic
+
+决策与路由逻辑。
+
+负责：
+
+- 判断问题类型
+- 判断调用模块
+- 连接知识库
+- 选择分析路径
+
+---
+
+## workflows
+
+工作流程。
+
+包括：
+
+- Campaign审核
+- 策略制定
+- 方案优化
+- 结案复盘
+- 提案准备
+
+---
+
+## tests
+
+测试模块。
+
+用于验证：
+
+- 原 Campaign Logic 能力是否保留；
+- 新增模块是否正常调用；
+- 输出是否符合预期。
+
+---
+
+# 知识库调用规则
+
+Claude Code 不应直接读取全部知识。
+
+根据任务选择：
+
+## 市场问题
+
+调用：
+
+IMA行业与市场知识库
+
+用于：
+
+- 市场趋势
+- 行业环境
+- 用户洞察
+
+---
+
+## 策略问题
+
+调用：
+
+策略方法论库。
+
+包括：
+
+- SWOT
+- PEST
+- 3C
+- SMART
+- SCQA
+- AISAS
+- AIPL
+- 4P
+- HBG
+- KISS
+
+---
+
+## 品牌问题
+
+调用：
+
+品牌理论库。
+
+---
+
+## 广告投放问题
+
+调用：
+
+- 广告知识库
+- 投放指标库
+
+---
+
+## 产品问题
+
+调用：
+
+产品卖点库。
+
+---
+
+## 表达和呈现问题
+
+调用：
+
+- 营销表达库
+- 方案呈现模型库
+
+---
+
+# 修改原则
+
+进行代码、文档或结构修改时：
+
+不要：
+
+- 重构掉原有 Campaign Logic 能力；
+- 创建重复知识库；
+- 删除已有工作流；
+- 为了增加复杂度而增加模块。
+
+应该：
+
+- 优先复用；
+- 保持目录清晰；
+- 保持向后兼容。
+
+---
+
+# 输出要求
+
+所有新增文档：
+
+- 使用 Markdown 格式；
+- 保持结构清晰；
+- 说明用途、调用场景和使用方式。
+
+所有策略建议：
+
+需要说明：
+
+- 为什么这样判断；
+- 使用什么方法；
+- 如何应用到方案中。
+
+---
+
+# GitHub维护规则
+
+提交更新时：
+
+说明：
+
+- 修改原因；
+- 新增能力；
+- 是否影响旧功能。
+
+保持版本演进记录。
