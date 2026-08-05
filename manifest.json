@@ -1,19 +1,38 @@
 {
-  "name": "campaign-logic-skill",
-  "version": "1.1.0",
-  "language": "zh-CN",
-  "knowledge_base": {
-    "provider": "Tencent ima",
-    "url": "https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279",
-    "mode": "manual-link-first"
-  },
-  "entrypoints": [
-    "SKILL.md",
-    "AGENTS.md",
-    "CLAUDE.md",
-    "SYSTEM_PROMPT.md"
+  "name": "AI Marketing Strategy Skill",
+  "version": "2.0.0",
+  "description": "An AI-powered marketing strategy assistant for campaign analysis, strategy development, proposal optimization, and marketing workflow support.",
+  "original_project": "Campaign Logic Skill",
+  "core_engine": "Campaign Logic Engine",
+  "capabilities": [
+    "marketing_requirement_analysis",
+    "brief_analysis",
+    "campaign_logic_review",
+    "strategy_methodology",
+    "marketing_expression_optimization",
+    "presentation_model_recommendation",
+    "proposal_simulation",
+    "knowledge_base_routing"
   ],
-  "features": [
-    "editable-ppt-blueprint"
-  ]
+  "knowledge_sources": [
+    "IMA industry knowledge base",
+    "Strategy methodology library",
+    "Brand theory library",
+    "Advertising knowledge library",
+    "Product selling point library",
+    "Media metrics library",
+    "Marketing expression library",
+    "Presentation models library"
+  ],
+  "supported_platforms": [
+    "GPTs",
+    "Claude Code",
+    "WorkBuddy",
+    "Codex-based Agents"
+  ],
+  "migration": {
+    "from": "Campaign Logic Skill",
+    "to": "AI Marketing Strategy Skill",
+    "principle": "Keep Campaign Logic capability as a core module while extending broader marketing strategy capabilities."
+  }
 }
