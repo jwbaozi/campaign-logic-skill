@@ -2,155 +2,149 @@
 
 [English](README.md) | 简体中文
 
-# Campaign Logic Skill V1.1
+# AI营销策略 Skill
 
-一套平台无关的营销策划方案逻辑检查配置包。
+> 从 Campaign Logic Engine 到完整营销策划 Agent
 
-适用于：
+AI营销策略 Skill 是一个面向营销策划、品牌、广告、市场人员的 AI 辅助策划系统。
 
-- OpenAI Codex / Codex Cloud
+项目最初来源于 Campaign Logic Skill，用于帮助用户检查 Campaign 方案逻辑。
+
+经过升级，现在扩展为覆盖：
+
+需求分析 → 策略制定 → 方案优化 → 表达优化 → 提案准备
+
+的完整营销策略 Agent。
+
+---
+
+# 项目演进
+
+Campaign Logic Skill
+
+↓
+
+Campaign Logic Engine
+
+↓
+
+AI营销策略 Skill
+
+原 Campaign Logic 能力不会被替代，而是作为核心模块继续保留。
+
+---
+
+# 核心能力
+
+## 1. 营销需求分析
+
+帮助用户理解：
+- 客户 Brief
+- 项目需求
+- 商业目标
+- 营销挑战
+
+信息不足时，不直接生成方案，而是先补充必要信息。
+
+## 2. 策略方法论支持
+
+支持：
+- 市场环境分析
+- 用户洞察
+- 竞争分析
+- 策略推导
+- 增长规划
+
+方法论：
+- SWOT
+- PEST
+- 3C
+- SMART
+- SCQA
+- AISAS
+- AIPL
+- 4P
+- HBG
+- KISS
+
+## 3. Campaign逻辑审核
+
+继承原 Campaign Logic Skill 能力。
+
+检查：
+- 营销目标
+- 用户洞察
+- 策略支撑
+- 创意一致性
+- 执行动作匹配
+- 用户路径完整性
+
+## 4. 营销表达优化
+
+优化：
+- 空泛表达
+- 营销黑话
+- 缺少商业价值的描述
+
+## 5. 方案呈现建议
+
+根据问题推荐：
+- 用户旅程模型
+- AISAS
+- AIPL
+- 品牌战略模型
+- 年度营销规划模型
+- 全域营销模型
+
+## 6. 提案模拟
+
+支持：
+- 品牌负责人
+- 市场负责人
+- 产品负责人
+- 投放负责人
+- 运营负责人
+
+---
+
+# 项目结构
+
+AI营销策略 Skill
+
+├── Logic逻辑层
+
+├── Knowledge知识层
+
+├── Workflow工作流
+
+├── Examples案例
+
+└── Tests测试
+
+---
+
+# 支持平台
+
+- GPTs
 - Claude Code
-- WorkBuddy 等国内 Agent 工具
-- 支持 `SKILL.md`、`AGENTS.md`、系统提示词或项目规则文件的 Agent 工具
-- 其他可上传知识文件或项目说明文件的 Agent 软件
+- WorkBuddy
+- Codex Agent
 
-![Knowledge Base Overview](assets/knowledge-base-overview.png)
+---
 
-## 快速开始
+# 项目初衷
 
-### Codex / Codex Cloud
+营销方案的问题往往不是缺少创意，而是：
 
-将整个文件夹放入项目根目录。
+- 目标不清晰
+- 策略逻辑不足
+- 执行与策略脱节
+- 无法有效表达商业价值
 
-优先读取：
+本项目希望将营销策划经验沉淀为可复用 AI 工作流。
 
-1. `AGENTS.md`
-2. `SKILL.md`
-3. `config/private-runtime-rules.md`
-4. 对应 `workflows/` 文件
+---
 
-### Claude Code
+# License
 
-将整个文件夹放入项目目录。
-
-优先读取：
-
-1. `CLAUDE.md`
-2. `SKILL.md`
-3. `config/private-runtime-rules.md`
-4. 对应工作流
-
-## WorkBuddy 及其他国内 Agent
-
-如果平台支持上传知识文件、项目说明文件或系统提示词：
-
-1. 上传 `SKILL.md`
-2. 上传与当前任务相关的 `workflows/` 文件
-3. 将 `AGENTS.md` 作为项目规则或补充说明
-4. 上传需要分析的策划方案
-5. 提示 Agent 先读取规则，再开始分析
-
-示例提示词：
-
-请先读取 `SKILL.md` 和 `AGENTS.md`，
-再根据我上传的材料类型，选择 `workflows/` 中对应的工作流进行分析。
-
-### 其他 Agent
-
-如果支持系统提示词：
-
-- 将 `SKILL.md` 作为主能力说明
-- 将 `config/private-runtime-rules.md` 放入私有系统提示或开发者提示
-- 将 `workflows/` 作为子工作流
-- 将 `knowledge/` 和 `tests/` 作为知识文件
-
-如果只支持上传文件：
-
-- 上传 `SKILL.md`
-- 上传所需工作流
-- 私有规则只放在自己的 Agent 配置里，不公开分发
-
-## 配套知识库
-
-腾讯 ima：
-
-https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
-
-![Knowledge Base Overview](assets/knowledge-base.png)
-
-使用限制：
-- 可能需要微信扫码登录
-- 境外网络环境可能无法访问
-- 第一版不依赖自动连接
-- Skill 会生成检索主题和关键词，用户可手动到 ima 搜索
-
-## 文件结构
-
-```text
-campaign-logic-skill-v1/
-├─ SKILL.md
-├─ README.md
-├─ AGENTS.md
-├─ CLAUDE.md
-├─ SYSTEM_PROMPT.md
-├─ config/
-│  └─ private-runtime-rules.md
-├─ workflows/
-│  ├─ intake.md
-│  ├─ proposal-review.md
-│  ├─ closing-review.md
-│  └─ restructure.md
-├─ knowledge/
-│  ├─ ima-usage-guide.md
-│  ├─ source-routing.md
-│  └─ search-query-template.md
-├─ tests/
-│  ├─ TEST_CASES.md
-│  └─ regression-checklist.md
-└─ examples/
-   ├─ framework-example.md
-   ├─ proposal-example.md
-   └─ closing-example.md
-```
-
-## 分发建议
-
-对外公开：
-
-- `SKILL.md`
-- `README.md`
-- `workflows/`
-- `knowledge/`
-- `examples/`
-
-个人部署保留但不公开：
-
-- `config/private-runtime-rules.md`
-- `SYSTEM_PROMPT.md`
-
-## 当前版本状态
-
-- 规则级测试：通过
-- 真实案例模拟：通过
-- 适合内部试用、小范围使用
-- 尚未完成 ima 自动连接
-
-
-## 可编辑 PPT 输出
-
-V1.1 新增“方案逻辑白板”功能。
-
-当用户要求把诊断结果直接用于修改方案时，Agent 应：
-
-1. 判断材料阶段
-2. 找出当前最需要修正的逻辑
-3. 提炼一句话总策略
-4. 按总策略主线重排内容
-5. 生成可编辑 `.pptx`
-
-该 PPT 是逻辑重构底稿，不是最终视觉设计稿。
-
-相关文件：
-
-- `workflows/editable-ppt.md`
-- `config/ppt-output-spec.md`
+MIT License
