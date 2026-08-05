@@ -1,128 +1,92 @@
-![Campaign Logic Skill](assets/readme-hero.png)
+![AI Marketing Strategy Skill](assets/readme-hero.png)
 
-[English](README.md) \| [简体中文](README_CN.md)
+[English] | [简体中文](README_CN.md)
 
 # AI Marketing Strategy Skill
 
-> From Campaign Logic Engine to Complete Marketing Strategy Agent
+> From Campaign Logic Engine to a complete AI-powered marketing strategy
+> workflow
 
 AI Marketing Strategy Skill is an AI-assisted marketing strategy system
-designed for marketing planners, brand teams, advertising professionals,
-and business teams.
+evolved from Campaign Logic Skill.
 
-The project evolved from Campaign Logic Skill, originally created to
-help users review campaign proposal logic.
+It helps marketing planners, brand teams, advertising professionals, and
+business teams analyze requirements, review proposal logic, apply
+methodologies, access knowledge resources, and improve presentation
+quality.
 
-The upgraded version expands into a complete marketing strategy agent
-covering:
+## Core Capabilities
 
-Requirement Analysis → Strategy Planning → Knowledge Application →
-Proposal Optimization → Expression Improvement → Presentation
-Preparation
+### Marketing Requirement Analysis
 
-------------------------------------------------------------------------
+-   Analyze client briefs and business objectives
+-   Identify marketing challenges and missing information
 
-# Project Evolution
+### Campaign Logic Review
 
-Campaign Logic Skill
+-   Review objectives
+-   Check insight and strategy logic
+-   Evaluate execution paths and measurement frameworks
 
-↓
+### Strategy Methodology Library
 
-Campaign Logic Engine
+Includes: - SWOT - PEST - 3C - STP - SMART - 3W - 5W2H - SCQA - McKinsey
+Seven-Step Method - AISAS - AIPL - 4P - Brand Positioning Triangle -
+HBG - HOOK - KISS
 
-↓
+### Presentation Model Library
 
-AI Marketing Strategy Skill
+Provides structured presentation frameworks: - Marketing planning
+models - User journey models - Brand lifecycle models - Content
+marketing models - Growth models
 
-The original Campaign Logic capability remains as the core logic module
-and continues to be preserved.
+### Supporting Knowledge Base
 
-------------------------------------------------------------------------
+Tencent ima:
 
-# Core Capabilities
+https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
 
-## 1. Marketing Requirement Analysis
+**"Our Knowledge Base"**
 
-Understand:
+Coverage:
 
--   Client briefs
--   Business objectives
--   Marketing challenges
--   User needs
--   Missing information
+- Multiple platforms
+- Multiple industries
+- Industry reports
+- Consumer research
+- Marketing cases
+- Platform rules
+- Marketing methodologies
+- Trend insights
 
-The Skill identifies missing information before generating solutions.
+Supports:
 
-## 2. Strategy Methodology Support
+Market understanding → Strategy development → Proposal validation → Marketing execution
 
-Support:
+Usage limitations:
 
--   Market analysis
--   Consumer insight
--   Competitive analysis
--   Strategy development
--   Growth planning
+* WeChat login via QR code may be required
+* May be inaccessible from overseas network environments
+* The first version does not rely on automatic connection
+* The Skill generates search topics and keywords; users can manually search within ima
+### Marketing Expression Optimization
 
-Including:
+-   Improve professional wording
+-   Optimize proposal language
+-   Provide marketing terminology references
 
--   SWOT
--   PEST
--   3C
--   SMART
--   SCQA
--   AISAS
--   AIPL
--   4P
--   HBG
--   HOOK
--   KISS
--   McKinsey Seven-Step Method
+### Proposal Simulation
 
-## 3. Campaign Logic Review
+Simulate client questions: - Why this strategy? - Why this audience? -
+Why this channel? - How to measure results?
 
-Inherited from the original Campaign Logic Skill.
-
-Review:
-
--   Marketing objectives
--   User insights
--   Strategy logic
--   Creative consistency
--   Execution alignment
--   User journey completeness
--   Measurement design
-
-## 4. Marketing Knowledge System
-
-Includes:
-
--   Strategy Methodology
--   Brand Theory
--   Presentation Models
--   Advertising Knowledge
--   Media Metrics
--   Product Selling Points
--   Marketing Expression
-
-## 5. Examples and Testing
-
-Includes:
-
-Examples: - Game launch campaigns - Product launch campaigns - Brand
-campaigns - Social media campaigns - Proposal review cases
-
-Testing: - Strategy planning tests - Campaign review tests - Knowledge
-routing tests - Output quality tests
-
-------------------------------------------------------------------------
-
-# Architecture
+## Architecture
 
 User Input
 
 ↓
 
-Workflow
+Workflow Engine
 
 ↓
 
@@ -130,28 +94,21 @@ Knowledge Routing
 
 ↓
 
-Knowledge Modules
+Strategy Methodology
 
 ↓
 
-Examples & Testing
+IMA Knowledge Base
+
+↓
+
+Examples & Presentation Models
 
 ↓
 
 Marketing Strategy Output
 
-------------------------------------------------------------------------
-
-# Supported Platforms
-
--   GPTs
--   Claude Code
--   WorkBuddy
--   Codex Agent
-
-------------------------------------------------------------------------
-
-# License
+## License
 
 MIT License
 
