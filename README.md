@@ -2,176 +2,134 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# Campaign Logic Skill
+# AI Marketing Strategy Skill
 
-A cross-platform skill for reviewing, restructuring, and improving marketing campaign proposals.
+> From Campaign Logic Engine to a Full Marketing Strategy Agent
 
-It supports rough ideas, outlines, TXT files, Word documents, PDFs, PowerPoint files, screenshots, incomplete proposals, complete proposals, and campaign closing reports.
+AI Marketing Strategy Skill is an AI-powered marketing strategy assistant designed to help marketers, strategists, brand teams, and consultants analyze, optimize, and structure marketing plans.
 
-## What It Does
+Originally developed as Campaign Logic Skill, the project has evolved from a campaign review framework into a broader marketing strategy system covering the full workflow from brief analysis to proposal preparation.
 
-![Knowledge Base Overview](assets/skill-e.png)
+---
 
-Campaign Logic Skill helps users:
+## Evolution
 
-- identify the maturity of proposal materials
-- detect broken or missing logic
-- extract the most important issues to revise
-- build a clear core strategy line
-- restructure proposal flow
-- distinguish client-facing content from internal analysis
-- generate an editable PowerPoint blueprint
-- continue analysis even when some data is unavailable
+Campaign Logic Skill
 
-## Core Workflow
+↓
 
-Material review  
-→ Role identification  
-→ Proposal maturity assessment  
-→ Proposal type recognition  
-→ Overall judgment  
-→ Logic diagnosis  
-→ Core strategy extraction  
-→ Proposal restructuring  
-→ Editable PowerPoint blueprint
+Campaign Logic Engine
 
-## Supported Proposal Types
+↓
 
-- Campaign proposals
-- General proposal frameworks
-- Individual campaign proposals
-- Campaign closing reports
-- Mixed-format proposal materials
+AI Marketing Strategy Skill
 
-## Editable PowerPoint Blueprint
+The original Campaign Logic capability remains as a core module inside the new framework.
 
-The skill can generate an editable PowerPoint draft based on the proposal review.
+---
 
-The output may include:
+# What It Does
 
-- material assessment
-- the most important logic issues
-- a one-sentence core strategy
-- a step-by-step strategy line
-- a restructured proposal outline
-- page-by-page editing boards
-- missing information placeholders
-- internal review notes
+## 1. Analyze Marketing Requirements
 
-The PowerPoint output is designed as an editable logic blueprint, not as a final visual design.
+Understand:
+- Client briefs
+- Campaign requirements
+- Marketing objectives
+- Business challenges
 
-## Supported Agent Environments
+Before generating solutions, the system evaluates whether enough information is available.
 
-This repository can be used with tools that support project instructions, Markdown-based skills, system prompts, or repository-level rules, including:
+## 2. Build Marketing Strategies
 
-- OpenAI Codex
-- Codex Cloud
+Supports:
+- Market analysis
+- Consumer insights
+- Competitive analysis
+- Strategy development
+- Growth planning
+
+Methodologies:
+- SWOT
+- PEST
+- 3C
+- SMART
+- SCQA
+- AISAS
+- AIPL
+- 4P
+- HBG
+- KISS
+
+## 3. Review Campaign Logic
+
+Powered by Campaign Logic Engine.
+
+Evaluates:
+- Objective clarity
+- Consumer insight quality
+- Strategy consistency
+- Creative logic
+- Execution alignment
+- User journey completeness
+
+## 4. Improve Marketing Expression
+
+Helps transform vague statements and marketing jargon into clearer strategic communication.
+
+## 5. Recommend Presentation Models
+
+Supports:
+- User Journey Model
+- AISAS Model
+- AIPL Model
+- Brand Strategy Framework
+- Annual Marketing Planning Model
+- Integrated Marketing Model
+
+## 6. Proposal Simulation
+
+Supports roles:
+- Brand Manager
+- Marketing Manager
+- Product Manager
+- Media / Performance Manager
+- Operation Manager
+
+---
+
+# Architecture
+
+AI Marketing Strategy Skill
+
+├── Logic Layer
+├── Knowledge Layer
+├── Workflow Layer
+└── Testing Layer
+
+---
+
+# Supported Platforms
+
+- GPTs
 - Claude Code
-- Other similar Agent tools
+- WorkBuddy
+- Codex-based Agents
 
-## Codex Setup
+---
 
-1. Clone or download this repository.
-2. Place the repository files in your project root.
-3. Make sure `AGENTS.md` and `SKILL.md` are available.
-4. Ask Codex to read the relevant files before reviewing your proposal.
+# Why This Project Exists
 
-Example prompt:
+Many marketing documents fail because of:
+- unclear objectives
+- weak strategy logic
+- disconnected execution
+- poor business communication
 
-```text
-Please read AGENTS.md and SKILL.md first.
-Then select the appropriate workflow from the workflows folder
-and review the marketing proposal I provide.
+This project transforms marketing expertise into reusable AI workflows.
 
-## Claude Code Setup
+---
 
-1. Clone or download this repository.
-2. Place the repository in your Claude Code project folder.
-3. Make sure `CLAUDE.md` and `SKILL.md` are available.
-4. Ask Claude Code to read the relevant workflow before reviewing your proposal.
-
-Example prompt:
-
-```text
-Please read CLAUDE.md and SKILL.md first.
-Then select the appropriate workflow based on the proposal material.
-```
-
-## WorkBuddy and Other Agent Tools
-
-If the platform supports knowledge files, project instructions, or system prompts:
-
-1. Upload `SKILL.md`.
-2. Upload the relevant files from the `workflows/` folder.
-3. Upload `AGENTS.md` as a project rule or supporting instruction.
-4. Upload the proposal materials you want to review.
-5. Ask the Agent to read the rules before starting the analysis.
-
-Example prompt:
-
-```text
-Please read SKILL.md and AGENTS.md first.
-Then select the appropriate workflow based on the materials I provide.
-```
-
-## Knowledge Base
-
-This skill can be used together with a supporting Tencent ima knowledge base.
-
-Knowledge base link:
-
-https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
-
-![Knowledge Base Overview](assets/knowledgebase-e.png)
-
-The knowledge base includes:
-
-- platform materials
-- industry reports
-- consumer research
-- marketing cases
-- platform rules
-- methodologies
-- current trends
-
-Notes:
-
-- WeChat login may be required
-- access is generally more reliable in mainland China
-- overseas users may not be able to open the link
-- the skill can still work independently without the knowledge base
-
-## Repository Structure
-
-```text
-campaign-logic-skill/
-├─ README.md
-├─ README.zh-CN.md
-├─ SKILL.md
-├─ AGENTS.md
-├─ CLAUDE.md
-├─ CHANGELOG.md
-├─ manifest.json
-├─ assets/
-├─ workflows/
-├─ knowledge/
-├─ examples/
-└─ tests/
-```
-
-## Current Version
-
-Version 1.1
-
-New in this version:
-
-- editable PowerPoint blueprint
-- one-sentence core strategy
-- strategy line restructuring
-- proposal outline restructuring
-- page-by-page editing boards
-- separation between client-facing and internal content
-
-## License
+# License
 
 MIT License
