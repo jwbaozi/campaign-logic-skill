@@ -1,52 +1,46 @@
 # AI Marketing Strategy Skill
 
+[English](README.md) \| [简体中文](README_CN.md)
+
+## From Campaign Logic Engine to Complete Marketing Strategy Agent
+
 AI Marketing Strategy Skill is an AI-powered marketing strategy
 assistant upgraded from Campaign Logic Skill.
 
-## Overview
-
-It helps marketers analyze briefs, review proposals, select marketing
-frameworks, improve strategic logic, and recommend presentation
-structures.
-
-## Problems It Solves
-
-Traditional marketing planning often faces:
-
--   Information scattered across different sources
--   Difficulty selecting suitable methodologies
--   High cost of proposal review and optimization
--   Time-consuming professional expression refinement
+It helps marketers move from scattered information and manual planning
+to structured marketing strategy development, proposal review, knowledge
+application, and presentation optimization.
 
 ## Core Capabilities
 
-### 1. Brief Analysis
+### Brief Analysis
 
 Understand:
 
--   Business goals
--   Marketing challenges
+-   Business background
+-   Marketing objectives
+-   User needs
 -   Missing information
 
-### 2. Strategy Planning
+### Strategy Planning
 
 Support:
 
 -   Market analysis
--   Consumer insight
+-   Consumer insights
 -   Strategy development
--   Framework recommendation
+-   Marketing framework selection
 
-### 3. Proposal Review
+### Proposal Review
 
-Review:
+Analyze:
 
 -   Logic consistency
 -   Strategy alignment
 -   Execution feasibility
 -   Measurement design
 
-### 4. Knowledge System
+### Marketing Knowledge System
 
 Includes:
 
@@ -58,15 +52,7 @@ Includes:
 -   Product Selling Points
 -   Marketing Expression
 
-### 5. Examples and Testing
-
-Provides:
-
--   Marketing cases
--   Workflow examples
--   Quality evaluation standards
-
-## Architecture
+## Workflow Architecture
 
 User Input
 
@@ -92,4 +78,4 @@ Marketing Strategy Output
 
 ## Version
 
-Current Version: 2.0.0
+v2.0.0
