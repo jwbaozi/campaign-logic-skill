@@ -1,4 +1,4 @@
-![AI营销策略 Skill](assets/readme-hero.png)
+![AI营销策略 Skill](assets/readme-heroCN.png)
 
 [English](README.md) | [简体中文]
 # AI营销策略 Skill
