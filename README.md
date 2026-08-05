@@ -40,7 +40,7 @@ Provides structured presentation frameworks: - Marketing planning
 models - User journey models - Brand lifecycle models - Content
 marketing models - Growth models
 
-![Strategy Methodology & Presentation Model](assets/Strategy 20Methodology 20 26 20Presentation%20Model.png)
+![StrategyMethodology&PresentationModel](assets/StrategyMethodology&PresentationModel)
 
 ### Supporting Knowledge Base
 
