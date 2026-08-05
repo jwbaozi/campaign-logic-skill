@@ -40,7 +40,7 @@ Provides structured presentation frameworks: - Marketing planning
 models - User journey models - Brand lifecycle models - Content
 marketing models - Growth models
 
-(assets/Strategy Methodology & Presentation Model.png)
+![Strategy Methodology & Presentation Model](assets/Strategy 20Methodology 20 26 20Presentation%20Model.png)
 
 ### Supporting Knowledge Base
 
@@ -64,6 +64,8 @@ Coverage:
 Supports:
 
 Market understanding → Strategy development → Proposal validation → Marketing execution
+
+![knowledge](assets/knowledge.png)
 
 Usage limitations:
 
