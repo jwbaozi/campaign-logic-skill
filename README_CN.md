@@ -48,6 +48,8 @@ AI营销策略 Skill 是由 Campaign Logic Skill 升级而来的 AI
 
 用于： - 市场分析 - 用户洞察 - 策略推导 - 增长规划
 
+![StrategyMethodologyCN](assets/StrategyMethodologyCN.png)
+
 ### 呈现模型库
 
 帮助将策略转化为客户可理解的方案结构：
@@ -58,7 +60,7 @@ AI营销策略 Skill 是由 Campaign Logic Skill 升级而来的 AI
 -   内容营销模型
 -   增长模型
 
-![StrategyMethodology&PresentationModelCN](assets/StrategyMethodology&PresentationModelCN.png)
+![PresentationModelCN](assets/PresentationModelCN.png)
 
 ### 配套知识库
 
