@@ -34,13 +34,15 @@ Includes: - SWOT - PEST - 3C - STP - SMART - 3W - 5W2H - SCQA - McKinsey
 Seven-Step Method - AISAS - AIPL - 4P - Brand Positioning Triangle -
 HBG - HOOK - KISS
 
+![StrategyMethodology](assets/StrategyMethodology.png)
+
 ### Presentation Model Library
 
 Provides structured presentation frameworks: - Marketing planning
 models - User journey models - Brand lifecycle models - Content
 marketing models - Growth models
 
-![StrategyMethodology&PresentationModel](assets/StrategyMethodology&PresentationModel.png)
+![PresentationModel](assets/PresentationModel.png)
 
 ### Supporting Knowledge Base
 
