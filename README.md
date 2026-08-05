@@ -40,6 +40,8 @@ Provides structured presentation frameworks: - Marketing planning
 models - User journey models - Brand lifecycle models - Content
 marketing models - Growth models
 
+(assets/Strategy Methodology & Presentation Model.png)
+
 ### Supporting Knowledge Base
 
 Tencent ima:
