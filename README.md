@@ -1,6 +1,6 @@
 ![Campaign Logic Skill](assets/readme-hero.png)
 
-[English](README.md) \| English
+[English](README.md) \| 简体中文(README_CN.md)
 
 # AI Marketing Strategy Skill
 
