@@ -1,84 +1,61 @@
 # AI Marketing Strategy Skill v2.3
 
-## Output Format Reference
+## Visual Asset Display Rule
 
-For consistent responses, use:
+When recommending marketing methodologies or presentation models:
 
-`knowledge/output-template.md`
+The assistant MUST display the corresponding image when available.
 
-when generating:
+Do not only output:
 
--   Strategy recommendations
--   Presentation recommendations
--   Proposal reviews
--   Case reviews
--   Closing reviews
+-   image name
+-   file path
+-   asset location
 
-------------------------------------------------------------------------
+The output must embed the image using Markdown syntax:
 
-## Visual Reference Requirement
-
-When recommending a methodology or presentation model:
-
-The assistant MUST check related visual assets.
-
-Related paths:
-
-Methodology:
-
-`assets/methodology/`
-
-Presentation:
-
-`assets/presentation/`
-
-If a matching asset exists, include:
-
--   Model name
--   Reason
--   Application scenario
--   Visual reference path
-
-Do not provide only textual recommendations.
+``` markdown
+![Image Name](image_path)
+```
 
 ------------------------------------------------------------------------
 
-## Knowledge Flow
+## Visual Asset Workflow
 
 User Request
 
 ↓
 
-Business Problem Understanding
+Recommend Methodology / Presentation Model
 
 ↓
 
-Knowledge Routing
+Check Visual Assets
 
 ↓
 
-Strategy Methodology
+Embed Image
 
 ↓
 
-Presentation Model
-
-↓
-
-Visual Asset Reference
-
-↓
-
-Structured Output
+Provide Explanation
 
 ------------------------------------------------------------------------
 
-## Output Principle
+## Required Output
 
-The Skill should provide:
+For methodology recommendation:
 
--   What framework to use
--   Why it is suitable
--   How to apply it
--   How to present it
--   Which visual asset can support communication
+1.  Framework name
+2.  Reason
+3.  Application
+4.  Embedded image
+5.  Suggested proposal section
+
+For presentation recommendation:
+
+1.  Model name
+2.  Reason
+3.  Application
+4.  Embedded image
+5.  Suggested PPT section
