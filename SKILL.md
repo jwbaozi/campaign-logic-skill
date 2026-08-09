@@ -1,4 +1,5 @@
-# AI Marketing Strategy Skill v2.0（基于原版升级）
+# AI Marketing Strategy Skill v2.1
+（基于 Campaign Logic Skill 升级）
 
 ## 功能定位
 
@@ -9,291 +10,152 @@ AI Marketing Strategy Skill 由原「策划方案逻辑检查 Skill」升级而�
 不是替代原 Skill，而是在保留原有方案逻辑检查能力基础上，增加：
 
 - 策略方法论调用
+- 营销知识库调用
 - 营销表达优化
 - 方案呈现建议
 - 提案模拟
-- 知识库调用体系
-
-原版核心定位：
-
-用于检查广告、媒体、品牌及市场营销方案的结构与逻辑。支持零散想法、TXT、Word、PDF、PPT/PPTX、方案截图、半成品方案、完整方案、结案材料和多文件组合材料。fileciteturn17file0
+- 案例分析
+- 结案复盘
 
 ---
 
-# 核心工作流程
+# Task Classification
 
-读取材料
+Before applying any methodology, framework, or knowledge source, the Skill must identify the user's actual task type.
 
-↓
+## Task Types
 
-识别需求类型
-（优化/生成/复盘）
+### Proposal Review
 
-↓
+Review existing marketing proposals.
 
-识别项目场景
-（游戏、美妆、B2B等）
+Output:
 
-↓
+- Logic gaps
+- Missing information
+- Optimization suggestions
 
-识别材料成熟度
-（想法/框架/半成品/完整方案/结案）
+### Strategy Planning
 
-↓
+Create marketing strategies.
 
-识别方案类型
-（Campaign/通案/个案/结案/提案）
+Use:
 
-↓
+- IMA Industry Knowledge Base
+- Strategy Methodology Library
+- Brand Theory Library
+- Product Selling Points Library
+- Presentation Model Library
 
-判断当前可检查范围
+### Case Analysis
 
-↓
+Analyze external marketing cases.
 
-必要时提出关键问题
+Must explain:
 
-↓
+- Why it worked
+- What can be learned
+- What cannot be copied directly
 
-调用对应知识库
+### Closing Review
 
-↓
+Analyze campaign closing materials.
 
-逐层检查
+Must separate:
 
-↓
+- Campaign Result
+- Business Result
 
-输出优化建议
+Do not claim sales growth without supporting business data.
 
-↓
+### Presentation Design
 
-根据需要重构方案框架
+When recommending models, provide:
 
-↓
-
-生成可编辑方案逻辑白板 PPT
-
----
-
-# 知识库体系（核心升级）
-
-本 Skill 不只是连接知识库，而是通过问题类型调用不同知识模块。
-
-## 1. IMA行业与市场知识库
-
-解决：
-
-- 市场环境是什么？
-- 行业趋势如何？
-- 用户和竞争环境如何？
-
-调用场景：
-
-- 市场分析
-- 行业洞察
-- 竞品分析
-- 用户研究
-
-知识库地址：
-
-https://ima.qq.com/wiki/?shareId=749ceceb753eac5742dc93d51c7318da96b63100624e1c45624836cbcd60d279
-
-说明：
-
-- 当前托管于腾讯 ima
-- 可能需要微信扫码登录
-- 更适合中国大陆网络环境
-- 境外用户可能无法正常访问
-- 知识库不可用时，不影响 Skill 独立运行
-
-资料不足时：
-
-生成具体检索主题和关键词，而不是只提示“去知识库查看”。
+1. Model name
+2. Why suitable
+3. Problem solved
+4. PPT section
+5. Visual reference if available
 
 ---
 
-## 2. 策略方法论库
+# Knowledge System
 
-解决：
+The Skill routes users to different knowledge modules:
 
-“应该如何制定策略？”
-
-包含：
-
-- SWOT
-- PEST
-- 3C
-- SMART
-- 3W
-- 5W2H
-- SCQA
-- 麦肯锡七步法
-- AISAS
-- AIPL
-- 4P
-- 奥美品牌定位三角
-- 内容营销5A
-- HBG
-- HOOK
-- KISS
-
-调用规则：
-
-必须说明：
-
-- 为什么推荐
-- 解决什么问题
-- 应用于方案哪个部分
-
-禁止为了显得专业而堆叠模型。
+- IMA Industry Knowledge Base
+- Strategy Methodology Library
+- Brand Theory Library
+- Advertising Knowledge Library
+- Product Selling Points Library
+- Media Metrics Library
+- Marketing Expression Library
+- Presentation Model Library
 
 ---
 
-## 3. 品牌理论库
+# Multi Knowledge Routing
 
-解决：
+Examples:
 
-“品牌为什么这样建设？”
+New product launch:
 
-用于：
+- IMA Industry Knowledge Base
+- Strategy Methodology Library
+- Product Selling Points Library
+- Presentation Models
 
-- 品牌定位
-- 品牌资产建设
-- 长期品牌策略
+Campaign review:
 
----
-
-## 4. 广告知识库
-
-解决：
-
-“广告如何运作？”
-
-包括：
-
-- 广告基础知识
-- 媒体逻辑
-- 投放机制
-- 传播规律
+- Advertising Knowledge
+- Media Metrics
+- Marketing Expression
 
 ---
 
-## 5. 产品卖点库
+# Reference Image Rule
 
-解决：
+When recommending presentation models:
 
-“产品为什么值得购买？”
+Do not only output image filenames.
 
-分析：
+Must provide:
 
-- 产品优势
-- 用户利益点
-- 卖点提炼
-- 差异化表达
+- Model name
+- Usage explanation
+- PPT usage position
+- Reference image path
 
----
+If image exists:
 
-## 6. 投放指标库
+Use Markdown image format:
 
-解决：
+![Model Name](image path)
 
-“如何衡量效果？”
+If unavailable:
 
-区分：
-
-- 曝光指标
-- 互动指标
-- 转化指标
-- 品牌指标
-- 业务指标
-
-避免把传播表现直接等同业务结果。
+State that no reference image exists.
 
 ---
 
-## 7. 营销表达库
+# Output Principles
 
-解决：
+The Skill should:
 
-“方案如何专业表达？”
+- Analyze based on user materials
+- Separate facts, opinions, assumptions and suggestions
+- Provide actionable recommendations
 
-优化：
+The Skill should not:
 
-- 空泛表达
-- 营销黑话
-- 缺少商业价值的描述
-
-表达原则：
-
-用户价值 + 行为变化 + 商业结果。
+- Invent data
+- Force unnecessary frameworks
+- Use meaningless marketing jargon
 
 ---
 
-## 8. 方案呈现模型库
-
-解决：
-
-“方案如何展示？”
-
-调用：
-
-- AISAS用户旅程
-- AIPL
-- 人货场
-- 年度营销规划模型
-- 全域营销模型
-- 品牌战略模型
-- 数据分析模型
-
-每个模型说明：
-
-- 适用场景
-- 解决问题
-- 推荐位置
-- 关联视觉素材
-
----
-
-# Campaign Logic Engine
-
-保留原版本方案逻辑检查能力。
-
-检查：
-
-- 客户背景
-- 项目目标
-- 数据分析
-- 核心发现
-- 传播策略
-- 创意与热点
-- 平台与资源
-- 执行与落地
-- 效果指标
-
-同时增加：
-
-策略 → 执行一致性检查。
-
----
-
-# 输出原则
-
-Skill 应：
-
-- 基于用户材料分析
-- 区分事实、观点、假设和建议
-- 明确分析边界
-- 提供可执行优化方向
-
-Skill 不应：
-
-- 编造数据
-- 强行套用模型
-- 将内部判断默认输出客户版
-- 使用无意义营销黑话
-
----
-
-# 支持平台
+# Supported Platforms
 
 - GPTs
 - Claude Code
