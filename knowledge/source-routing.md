@@ -1,228 +1,261 @@
-# Source Routing - AI Marketing Strategy Skill v2.0
+# Source Routing v2.2
 
 ## Purpose
 
-Source Routing 用于判断用户问题类型，并决定调用哪个知识模块。
+用于帮助 AI Marketing Strategy Skill 根据用户需求，
+判断需要调用哪些知识模块，并建立知识模块与视觉资产之间的调用关系。
 
-核心原则：
+------------------------------------------------------------------------
 
-不要为了展示专业而堆叠多个模型。
+# Routing Logic
 
-应该：
+用户输入
 
-用户问题
 ↓
-识别问题类型
+
+识别任务类型
+
 ↓
+
 调用对应知识模块
+
 ↓
-结合实际业务场景输出建议
 
----
+如涉及视觉参考，调用 Visual Assets Knowledge
 
-# Routing Rules
+↓
 
-## 1. 市场与行业分析
+整合输出结果
 
-用户问题：
+------------------------------------------------------------------------
 
-- 市场趋势
-- 行业变化
-- 用户环境
-- 竞争环境
+# Knowledge Routing Rules
 
-调用：
+## 01 Strategy Methodology
 
-- IMA Industry Knowledge Base
-- Strategy Methodology Knowledge
+Location:
 
-推荐方法：
+`knowledge/01-strategy-methodology/`
 
-- PEST
-- 3C
-- SWOT
+Use when:
 
----
+-   用户需要制定营销策略
+-   用户需要选择分析框架
+-   用户需要策略推导方法
+-   用户需要市场、用户、竞争分析
 
-## 2. 策略制定
+Examples:
 
-用户问题：
+-   如何分析市场机会？
+-   新品上市应该使用什么策略模型？
+-   如何制定传播策略？
 
-- 如何制定营销策略
-- 如何找到增长机会
-- 如何设计传播方向
+Related Visual Assets:
 
-调用：
+`knowledge/08-visual-assets/`
 
-- Strategy Methodology Knowledge
+`assets/methodology/`
 
-包含：
+------------------------------------------------------------------------
 
-- SWOT
-- PEST
-- 3C
-- SMART
-- SCQA
-- AISAS
-- AIPL
-- 4P
-- HBG
-- HOOK
-- KISS
+## 02 Brand Theory
 
-输出要求：
+Location:
 
-说明：
+`knowledge/02-brand-theory/`
 
-- 为什么选择该方法
-- 解决什么问题
-- 应用于方案哪个阶段
+Use when:
 
----
+-   用户需要品牌定位
+-   用户需要品牌建设逻辑
+-   用户需要品牌长期策略
 
-## 3. 品牌建设
+Related Visual Assets:
 
-用户问题：
+`knowledge/08-visual-assets/`
 
-- 品牌定位
-- 品牌价值
-- 品牌资产建设
+------------------------------------------------------------------------
 
-调用：
+## 03 Presentation Models
 
-- Brand Theory Knowledge
+Location:
 
-包含：
+`knowledge/03-presentation-models/`
 
-- CBBE
-- Aaker品牌理论
-- 品牌定位模型
+Use when:
 
----
+-   用户需要方案结构建议
+-   用户需要 PPT 呈现方式
+-   用户需要策略视觉化表达
 
-## 4. 广告投放
+Examples:
 
-用户问题：
+-   这一页 PPT 应该怎么呈现？
+-   用户旅程应该使用什么模型？
+-   策略部分如何视觉化？
 
-- 广告机制
-- 投放策略
-- 媒体选择
+Related Visual Assets:
 
-调用：
+`knowledge/08-visual-assets/`
 
-- Advertising Knowledge
+`assets/presentation/`
 
-关注：
+------------------------------------------------------------------------
 
-- 广告逻辑
-- 投放机制
-- 媒体能力
+## 04 Advertising Knowledge
 
----
+Location:
 
-## 5. 效果分析
+`knowledge/04-advertising-knowledge/`
 
-用户问题：
+Use when:
 
-- 投放效果
-- 转化优化
-- ROI提升
+-   用户需要广告行业知识
+-   用户需要传播逻辑
+-   用户需要广告机制解释
 
-调用：
+------------------------------------------------------------------------
 
-- Media Metrics Knowledge
+## 05 Media Metrics
 
-关注：
+Location:
 
-- CTR
-- CPA
-- ROI
-- LTV
-- 转化漏斗
+`knowledge/05-media-metrics/`
 
----
+Use when:
 
-## 6. 产品卖点
+-   用户需要广告指标解释
+-   用户需要效果分析
+-   用户需要投放数据分析
 
-用户问题：
+------------------------------------------------------------------------
 
-- 产品优势
-- 卖点提炼
-- 用户为什么购买
+## 06 Product Selling Points
 
-调用：
+Location:
 
-- Product Selling Points Knowledge
+`knowledge/06-product-selling-points/`
 
----
+Use when:
 
-## 7. 营销表达
+-   用户需要产品卖点分析
+-   用户需要产品价值提炼
 
-用户问题：
+------------------------------------------------------------------------
 
-- 方案表达优化
-- 客户沟通
-- 商业语言优化
+## 07 Marketing Expression
 
-调用：
+Location:
 
-- Marketing Expression Knowledge
+`knowledge/07-marketing-expression/`
 
-优化方向：
+Use when:
 
-- 减少空泛表达
-- 增强商业价值
-- 提升策略表达清晰度
+-   用户需要优化营销表达
+-   用户需要专业化方案语言
+-   用户需要提案措辞优化
 
----
+------------------------------------------------------------------------
 
-## 8. 方案呈现
+# 08 Visual Assets
 
-用户问题：
+Location:
 
-- PPT结构
-- 方案怎么展示
-- 数据如何呈现
+`knowledge/08-visual-assets/`
+
+Purpose:
+
+用于提供：
+
+1.  方法论参考图
+2.  呈现模型参考图
+3.  方案结构参考图
+
+------------------------------------------------------------------------
+
+# Visual Assets Trigger Conditions
+
+当用户请求：
+
+-   推荐营销方法论
+-   推荐策略模型
+-   推荐 PPT 呈现方式
+-   方案结构设计
+-   视觉化表达建议
 
 调用：
 
-- Presentation Models Knowledge
+`Visual Assets Knowledge`
 
-推荐：
+------------------------------------------------------------------------
 
-- 用户旅程
-- AISAS
-- AIPL
-- 人货场
-- 数据分析模型
+# Asset Mapping
 
----
+## Methodology Assets
 
-# IMA Knowledge Base Usage
+Path:
 
-当需要行业、市场、用户洞察时：
+`assets/methodology/`
 
-优先调用 IMA知识库。
+Used for:
 
-使用流程：
+-   SWOT
+-   PEST
+-   3C
+-   AISAS
+-   AIPL
+-   SMART
+-   3W
+-   5W2H
+-   SCQA
+-   HOOK
+-   HBG
+-   KISS
+-   McKinsey 7-Step Method
+-   4P
+-   Ogilvy Brand Positioning Triangle
+-   5A
 
-1. 判断问题类型
-2. 生成检索关键词
-3. 获取相关资料
-4. 提炼与项目相关的信息
+------------------------------------------------------------------------
 
-不要直接输出与项目无关的大量资料。
+## Presentation Assets
 
----
+Path:
 
-# Routing Principle
+`assets/presentation/`
 
-最终目标：
+Used for:
 
-让 AI Marketing Strategy Skill 从：
+-   新品上市方案
+-   年度营销规划
+-   内容矩阵
+-   媒体投放组合
+-   品牌战略呈现
+-   社交媒体规划
+-   用户旅程
+-   营销节奏规划
 
-"提供营销知识"
+------------------------------------------------------------------------
 
-升级为：
+# Output Rule
 
-"根据问题自动调用正确营销知识，并辅助方案决策"
+当推荐方法论或呈现模型时：
+
+如果存在对应视觉资产，需要输出：
+
+1.  推荐模型
+2.  使用原因
+3.  Visual Reference（图片路径）
+4.  应用场景
+
+不要只输出文字解释。
+
+------------------------------------------------------------------------
+
+# Priority Rule
+
+视觉资产匹配优先级：
+
+1.  精确匹配模型图片
+2.  对应类别图片
+3.  总览图片
