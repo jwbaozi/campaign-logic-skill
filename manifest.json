@@ -1,38 +1,3 @@
 {
-  "name": "AI Marketing Strategy Skill",
-  "version": "2.0.0",
-  "description": "An AI-powered marketing strategy assistant for campaign analysis, strategy development, proposal optimization, and marketing workflow support.",
-  "original_project": "Campaign Logic Skill",
-  "core_engine": "Campaign Logic Engine",
-  "capabilities": [
-    "marketing_requirement_analysis",
-    "brief_analysis",
-    "campaign_logic_review",
-    "strategy_methodology",
-    "marketing_expression_optimization",
-    "presentation_model_recommendation",
-    "proposal_simulation",
-    "knowledge_base_routing"
-  ],
-  "knowledge_sources": [
-    "IMA industry knowledge base",
-    "Strategy methodology library",
-    "Brand theory library",
-    "Advertising knowledge library",
-    "Product selling point library",
-    "Media metrics library",
-    "Marketing expression library",
-    "Presentation models library"
-  ],
-  "supported_platforms": [
-    "GPTs",
-    "Claude Code",
-    "WorkBuddy",
-    "Codex-based Agents"
-  ],
-  "migration": {
-    "from": "Campaign Logic Skill",
-    "to": "AI Marketing Strategy Skill",
-    "principle": "Keep Campaign Logic capability as a core module while extending broader marketing strategy capabilities."
-  }
+  "version": "2.3.0"
 }
