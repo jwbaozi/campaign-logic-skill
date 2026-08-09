@@ -1,261 +1,420 @@
-# Presentation Models Knowledge
+# Presentation Models Knowledge v2.2
 
 ## Purpose
 
 用于帮助 AI Marketing Strategy Skill
-根据项目需求、策略类型和方案阶段，推荐合适的方案呈现模型。
+根据项目目标、信息表达需求和方案章节，推荐合适的呈现模型。
 
-该模块不是 PPT 模板库，而是用于帮助营销策划人员选择： -
-应该使用什么表达框架 - 如何组织策略逻辑 - 哪种视觉模型最适合传递信息
+升级目标：
 
-------------------------------------------------------------------------
-
-# Usage Logic
-
-项目目标\
-↓\
-识别信息表达需求\
-↓\
-判断策略阶段\
-↓\
-匹配 Presentation Model\
-↓\
-解释模型价值\
-↓\
-应用到 PPT 对应章节
+-   推荐合适的 PPT 呈现方式
+-   解释为什么适合
+-   指导应用章节
+-   自动匹配对应视觉参考图
 
 ------------------------------------------------------------------------
 
-# Model Recommendation Principles
+# Presentation Recommendation Logic
 
-AI 推荐呈现模型时，需要优先判断：
+项目需求
 
-## 1. 用户需要解决什么表达问题
+↓
 
-例如：
+判断信息表达目标
 
--   解释市场环境变化
--   展示消费者行为路径
--   说明品牌定位关系
--   呈现营销策略链路
--   拆解执行计划
--   总结项目效果
+↓
 
-不同表达问题对应不同模型。
+选择呈现模型
+
+↓
+
+说明模型价值
+
+↓
+
+匹配 Visual Asset
+
+↓
+
+输出 PPT 应用建议
 
 ------------------------------------------------------------------------
 
-# Strategy → Presentation Mapping
+# Presentation Model Categories
 
 ## User Journey Models
 
-### AISAS
-
-适用场景： - 消费者决策路径分析 - 内容传播策略 - 社交媒体营销方案
-
-表达逻辑：
-
-Attention\
-→ Interest\
-→ Search\
-→ Action\
-→ Share
-
-适合解决： - 用户如何从认知到购买 - 内容如何影响消费者行为
-
-推荐章节： - 用户洞察 - 消费者路径分析 - 内容传播策略
-
-### AIPL
-
-适用场景： - 品牌用户资产分析 - 用户运营策略
-
-表达逻辑：
-
-Aware\
-→ Interest\
-→ Purchase\
-→ Loyalty
-
-适合解决： - 用户如何从认知转变为忠诚用户
-
-推荐章节： - 用户运营 - 品牌增长策略
+用于展示用户行为变化、决策路径和体验过程。
 
 ------------------------------------------------------------------------
 
-# Business Analysis Models
+## B2B Product Experience Journey
 
-## PEST
+### Purpose
 
-适用场景： - 宏观环境分析 - 行业趋势判断
+展示 B端用户从需求产生到产品体验的完整旅程。
 
-表达维度：
+### Suitable Scenarios
 
-Political\
-Economic\
-Social\
-Technology
+适用于：
 
-适合解决： - 为什么现在需要做这个项目 - 市场机会在哪里
+-   B端产品方案
+-   用户体验分析
+-   服务流程设计
 
-推荐章节： - 市场背景 - 行业趋势
+### Visual Reference
 
-## 3C
+`assets/presentation/B2B-product-experience-journey.png`
 
-适用场景： - 企业竞争分析 - 市场定位分析
+------------------------------------------------------------------------
 
-表达维度：
+## AISAS User Journey
 
-Company\
-Customer\
-Competitor
+### Purpose
 
-适合解决： - 品牌自身优势是什么 - 用户需求是什么 - 竞争环境如何
+展示消费者从认知到分享的行为路径。
 
-推荐章节： - 市场分析 - 策略推导
+### Suitable Scenarios
 
-## SWOT
+适用于：
 
-适用场景： - 综合战略判断
+-   新品传播策略
+-   用户旅程分析
+-   内容传播规划
 
-表达维度：
+### Related Methodology
 
-Strengths\
-Weaknesses\
-Opportunities\
-Threats
+AISAS
 
-适合解决： - 总结内部优势与外部机会
+### Visual Reference
 
-推荐章节： - 策略总结 - 战略方向
+`assets/methodology/AISAS.png`
+
+------------------------------------------------------------------------
+
+# Strategy & Brand Presentation Models
+
+## Brand Strategy House
+
+### Purpose
+
+展示品牌战略组成结构。
+
+### Suitable Scenarios
+
+适用于：
+
+-   品牌定位方案
+-   品牌战略规划
+-   品牌体系建设
+
+### Visual Reference
+
+`assets/presentation/brand-strategy-house.png`
+
+------------------------------------------------------------------------
+
+## Brand Lifecycle Management
+
+### Purpose
+
+展示品牌不同生命周期阶段的运营策略。
+
+### Suitable Scenarios
+
+适用于：
+
+-   品牌成长规划
+-   长期运营策略
+
+### Visual Reference
+
+`assets/presentation/brand-lifecycle-management.png`
 
 ------------------------------------------------------------------------
 
 # Marketing Planning Models
 
-## 人货场模型
+## New Product Launch Marketing Strategy
 
-适用场景： - 新零售 - 电商营销 - 消费场景分析
+### Purpose
 
-表达维度：
+展示新品上市完整营销方案结构。
 
-人： 目标消费者
+### Suitable Scenarios
 
-货： 产品与卖点
+适用于：
 
-场： 触达与消费场景
+-   新品上市
+-   产品推广方案
+-   Campaign规划
 
-适合解决： - 为什么卖给这个人 - 为什么在这个场景购买
+### Visual Reference
 
-推荐章节： - 营销策略 - 消费场景分析
-
-## 全链路营销模型
-
-适用场景： - 整合营销方案 - 品牌传播规划
-
-表达逻辑：
-
-认知\
-→ 兴趣\
-→ 转化\
-→ 复购
-
-适合解决： - 如何连接品牌传播和业务结果
-
-推荐章节： - 整体营销策略 - Campaign规划
-
-## 内容营销模型
-
-适用场景： - 内容传播策略 - 社交媒体方案
-
-表达逻辑：
-
-内容定位\
-→ 内容生产\
-→ 内容分发\
-→ 用户互动\
-→ 效果沉淀
-
-适合解决： - 内容为什么产生传播效果
-
-推荐章节： - 内容策略 - 社交传播规划
+`assets/presentation/new-product-launch-marketing-strategy.png`
 
 ------------------------------------------------------------------------
 
-# Visual Expression Models
+## Annual Marketing Timeline
 
-## Matrix
+### Purpose
 
-适用： - 多维比较 - 竞争分析
+展示年度营销节奏和活动安排。
 
-例如： 品牌定位矩阵、竞品分析矩阵
+### Suitable Scenarios
 
-## Journey Map
+适用于：
 
-适用： - 用户行为过程展示
+-   年度规划
+-   品牌活动规划
+-   Campaign排期
 
-例如： 消费者旅程、用户体验流程
+### Visual Reference
 
-## Funnel
-
-适用： - 转化路径展示
-
-例如： 曝光 → 点击 → 转化 → 复购
-
-## Timeline
-
-适用： - 时间规划
-
-例如： Campaign节奏、活动执行排期
-
-## Ecosystem Map
-
-适用： - 多方关系展示
-
-例如： 品牌生态、营销资源关系
+`assets/presentation/annual-marketing-timeline.png`
 
 ------------------------------------------------------------------------
 
-# Recommendation Output Format
+## Integrated Marketing Timeline
 
-AI 推荐模型时必须输出：
+### Purpose
 
-## Recommended Model
+展示整合营销不同阶段的节奏。
 
-模型名称：
+### Suitable Scenarios
 
-## Why Suitable
+适用于：
 
-为什么适合当前项目：
+-   IMC方案
+-   多平台传播规划
+-   Campaign节奏设计
 
-## Problem Solved
+### Visual Reference
 
-解决什么表达问题：
-
-## Recommended Section
-
-建议放入方案哪个章节：
-
-## Presentation Suggestion
-
-建议采用什么视觉形式：
+`assets/presentation/integrated-marketing-timeline.png`
 
 ------------------------------------------------------------------------
 
-# Usage Example
+## Omnichannel Marketing Strategy
 
-用户输入：
+### Purpose
 
-"我要做一个新品上市营销方案，需要分析用户购买路径。"
+展示全渠道营销布局。
 
-AI 输出：
+### Suitable Scenarios
 
-推荐模型： AISAS
+适用于：
 
-原因：
-新品上市需要解释消费者从看到产品到购买分享的完整路径，AISAS适合表达社交媒体环境下用户决策过程。
+-   全域营销
+-   多渠道运营
+-   用户触达规划
 
-解决问题： 帮助客户理解传播内容如何推动消费者行动。
+### Visual Reference
 
-建议章节： 用户洞察 / 消费者路径分析。
+`assets/presentation/omnichannel-marketing-strategy.png`
 
-呈现方式： 使用流程图展示用户行为变化。
+------------------------------------------------------------------------
+
+# Content & Social Media Models
+
+## Content Matrix and Content Ecosystem
+
+### Purpose
+
+展示内容规划、内容矩阵和传播体系。
+
+### Suitable Scenarios
+
+适用于：
+
+-   内容营销策略
+-   社媒运营规划
+-   达人传播体系
+
+### Visual Reference
+
+`assets/presentation/content-matrix-and-content-ecosystem.png`
+
+------------------------------------------------------------------------
+
+## Social Media Matrix Strategy
+
+### Purpose
+
+展示社交媒体平台布局和角色分工。
+
+### Suitable Scenarios
+
+适用于：
+
+-   社媒矩阵
+-   平台运营策略
+-   KOL/KOC规划
+
+### Visual Reference
+
+`assets/presentation/social-media-matrix-strategy.png`
+
+------------------------------------------------------------------------
+
+## KOL-KOC Seeding Strategy
+
+### Purpose
+
+展示达人传播和种草路径。
+
+### Suitable Scenarios
+
+适用于：
+
+-   社媒传播
+-   内容种草
+-   达人营销
+
+### Visual Reference
+
+`assets/presentation/KOL-KOC-seeding-strategy.png`
+
+------------------------------------------------------------------------
+
+# User Growth & Operation Models
+
+## RFM User Segmentation Strategy
+
+### Purpose
+
+按照用户价值进行分层运营。
+
+### Suitable Scenarios
+
+适用于：
+
+-   用户运营
+-   会员体系
+-   CRM策略
+
+### Visual Reference
+
+`assets/presentation/RFM-user-segmentation-strategy.png`
+
+------------------------------------------------------------------------
+
+## Membership Acquisition Path
+
+### Purpose
+
+展示会员获取和转化路径。
+
+### Suitable Scenarios
+
+适用于：
+
+-   会员增长
+-   用户转化
+
+### Visual Reference
+
+`assets/presentation/membership-acquisition-path.png`
+
+------------------------------------------------------------------------
+
+## Membership Points System
+
+### Purpose
+
+展示会员权益和积分体系设计。
+
+### Suitable Scenarios
+
+适用于：
+
+-   用户运营
+-   会员体系建设
+
+### Visual Reference
+
+`assets/presentation/membership-points-system.png`
+
+------------------------------------------------------------------------
+
+# Media & Data Presentation Models
+
+## Media Mix Funnel
+
+### Purpose
+
+展示媒体组合和转化链路。
+
+### Suitable Scenarios
+
+适用于：
+
+-   投放策略
+-   媒体规划
+-   效果转化分析
+
+### Visual Reference
+
+`assets/presentation/media-mix-funnel.png`
+
+------------------------------------------------------------------------
+
+## Data Analysis Presentation
+
+### Purpose
+
+展示数据分析结果和洞察。
+
+### Suitable Scenarios
+
+适用于：
+
+-   数据复盘
+-   效果分析
+-   市场研究
+
+### Visual Reference
+
+`assets/presentation/data-analysis-presentation.png`
+
+------------------------------------------------------------------------
+
+# Presentation Output Rule
+
+当 AI 推荐呈现模型时，必须输出：
+
+## Recommended Presentation Model
+
+推荐使用的呈现模型。
+
+## Why
+
+为什么适合当前方案。
+
+## Visual Reference
+
+对应图片路径：
+
+`assets/presentation/xxx.png`
+
+## Suggested PPT Section
+
+建议应用于方案哪个章节。
+
+------------------------------------------------------------------------
+
+# Visual Asset Integration
+
+如果存在对应视觉资产：
+
+AI 不应只描述文字结构。
+
+必须调用：
+
+`knowledge/08-visual-assets/`
+
+并匹配：
+
+`assets/presentation/`
+
+输出对应视觉参考。
