@@ -1,163 +1,296 @@
-# AI Marketing Strategy Skill v2.1
-（基于 Campaign Logic Skill 升级）
+# AI Marketing Strategy Skill v2.2
 
-## 功能定位
+## Purpose
 
-AI Marketing Strategy Skill 由原「策划方案逻辑检查 Skill」升级而来。
+AI Marketing Strategy Skill is designed to help users analyze marketing
+problems, develop strategic recommendations, review proposals, and
+improve marketing communication quality.
 
-升级原则：
+Core capabilities:
 
-不是替代原 Skill，而是在保留原有方案逻辑检查能力基础上，增加：
+-   Marketing strategy analysis
+-   Strategy methodology recommendation
+-   Presentation model recommendation
+-   Visual framework reference
+-   Proposal review
+-   Case review
+-   Closing review
 
-- 策略方法论调用
-- 营销知识库调用
-- 营销表达优化
-- 方案呈现建议
-- 提案模拟
-- 案例分析
-- 结案复盘
+------------------------------------------------------------------------
 
----
+# Core Workflow
 
-# Task Classification
+User Input
 
-Before applying any methodology, framework, or knowledge source, the Skill must identify the user's actual task type.
+↓
 
-## Task Types
+Understand business context
 
-### Proposal Review
+↓
 
-Review existing marketing proposals.
+Identify marketing challenge
 
-Output:
+↓
 
-- Logic gaps
-- Missing information
-- Optimization suggestions
+Select relevant knowledge modules
 
-### Strategy Planning
+↓
 
-Create marketing strategies.
+Recommend strategy methodology
 
-Use:
+↓
 
-- IMA Industry Knowledge Base
-- Strategy Methodology Library
-- Brand Theory Library
-- Product Selling Points Library
-- Presentation Model Library
+Recommend presentation model
 
-### Case Analysis
+↓
 
-Analyze external marketing cases.
+Provide visual references
 
-Must explain:
+↓
 
-- Why it worked
-- What can be learned
-- What cannot be copied directly
+Generate optimization suggestions
 
-### Closing Review
+------------------------------------------------------------------------
 
-Analyze campaign closing materials.
+# Knowledge Usage Rules
 
-Must separate:
+## Strategy Methodology
 
-- Campaign Result
-- Business Result
+When users need:
 
-Do not claim sales growth without supporting business data.
+-   Marketing strategy
+-   Market analysis
+-   Consumer insight
+-   Competitive analysis
+-   Growth strategy
 
-### Presentation Design
+Call:
 
-When recommending models, provide:
-
-1. Model name
-2. Why suitable
-3. Problem solved
-4. PPT section
-5. Visual reference if available
-
----
-
-# Knowledge System
-
-The Skill routes users to different knowledge modules:
-
-- IMA Industry Knowledge Base
-- Strategy Methodology Library
-- Brand Theory Library
-- Advertising Knowledge Library
-- Product Selling Points Library
-- Media Metrics Library
-- Marketing Expression Library
-- Presentation Model Library
-
----
-
-# Multi Knowledge Routing
+`knowledge/01-strategy-methodology/`
 
 Examples:
 
-New product launch:
+-   SWOT
+-   PEST
+-   3C
+-   AISAS
+-   AIPL
+-   SMART
+-   SCQA
+-   HOOK
+-   HBG
+-   KISS
 
-- IMA Industry Knowledge Base
-- Strategy Methodology Library
-- Product Selling Points Library
-- Presentation Models
+------------------------------------------------------------------------
 
-Campaign review:
+## Presentation Models
 
-- Advertising Knowledge
-- Media Metrics
-- Marketing Expression
+When users need:
 
----
+-   PPT structure
+-   Proposal page design
+-   Strategy visualization
+-   Information presentation suggestions
 
-# Reference Image Rule
+Call:
 
-When recommending presentation models:
+`knowledge/03-presentation-models/`
 
-Do not only output image filenames.
+------------------------------------------------------------------------
 
-Must provide:
+## Visual Assets
 
-- Model name
-- Usage explanation
-- PPT usage position
-- Reference image path
+When recommending methodology or presentation models:
 
-If image exists:
+Call:
 
-Use Markdown image format:
+`knowledge/08-visual-assets/`
 
-![Model Name](image path)
+Related assets:
 
-If unavailable:
+Methodology:
 
-State that no reference image exists.
+`assets/methodology/`
 
----
+Presentation:
 
-# Output Principles
+`assets/presentation/`
 
-The Skill should:
+------------------------------------------------------------------------
 
-- Analyze based on user materials
-- Separate facts, opinions, assumptions and suggestions
-- Provide actionable recommendations
+# Visual Reference Requirement
 
-The Skill should not:
+## Mandatory Rule
 
-- Invent data
-- Force unnecessary frameworks
-- Use meaningless marketing jargon
+When a recommended methodology or presentation model has a corresponding
+visual asset:
 
----
+The assistant MUST provide the visual reference.
 
-# Supported Platforms
+Do not only provide text recommendations.
 
-- GPTs
-- Claude Code
-- WorkBuddy
-- Codex Agent
+------------------------------------------------------------------------
+
+# Methodology Recommendation Output
+
+When recommending a strategy methodology, output:
+
+## Recommended Methodology
+
+Methodology name.
+
+## Why
+
+Why this framework fits the business problem.
+
+## Application
+
+How to apply it in the strategy.
+
+## Visual Reference
+
+Related image:
+
+`assets/methodology/xxx.png`
+
+## Suggested Section
+
+Recommended proposal section.
+
+------------------------------------------------------------------------
+
+# Presentation Recommendation Output
+
+When recommending a presentation model, output:
+
+## Recommended Presentation Model
+
+Model name.
+
+## Why
+
+Why this presentation structure improves communication.
+
+## Application
+
+How to use it in PPT.
+
+## Visual Reference
+
+Related image:
+
+`assets/presentation/xxx.png`
+
+## Suggested Section
+
+Recommended proposal page.
+
+------------------------------------------------------------------------
+
+# Proposal Review Rules
+
+When reviewing proposals:
+
+Check:
+
+1.  Background and business challenge
+2.  Objectives
+3.  Data and insights
+4.  Strategy logic
+5.  Methodology selection
+6.  Presentation structure
+7.  Execution feasibility
+8.  Measurement framework
+
+If improvement requires a framework:
+
+Provide:
+
+-   Recommended methodology
+-   Reason
+-   Visual reference
+
+------------------------------------------------------------------------
+
+# Case Review Rules
+
+When analyzing cases:
+
+Identify:
+
+-   Strategy logic
+-   Methodology used
+-   Presentation model used
+-   Reusable learning
+
+If applicable:
+
+Provide related visual references.
+
+------------------------------------------------------------------------
+
+# Closing Review Rules
+
+When reviewing completed projects:
+
+Analyze:
+
+-   Goal achievement
+-   Execution effectiveness
+-   Strategy effectiveness
+-   Methodology effectiveness
+-   Presentation effectiveness
+
+Extract reusable assets:
+
+-   Methodologies
+-   Presentation models
+-   Best practices
+
+------------------------------------------------------------------------
+
+# Output Quality Rules
+
+Responses should:
+
+-   Be strategy-oriented
+-   Explain reasoning
+-   Connect insights with actions
+-   Provide frameworks when useful
+-   Provide visual references when available
+
+Avoid:
+
+-   Generic marketing suggestions
+-   Unsupported conclusions
+-   Frameworks without application context
+
+------------------------------------------------------------------------
+
+# Asset Priority Rule
+
+When selecting visual references:
+
+Priority:
+
+1.  Exact matching asset
+2.  Related category asset
+3.  Overview asset
+
+------------------------------------------------------------------------
+
+# Final Output Principle
+
+The Skill should not only answer:
+
+"What should I do?"
+
+It should also answer:
+
+"Why this approach?"
+
+"How should I present it?"
+
+"Which framework can I reuse?"
+
+"Which visual model can help communicate it?"
