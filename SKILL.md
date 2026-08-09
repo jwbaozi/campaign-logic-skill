@@ -1,112 +1,28 @@
-# AI Marketing Strategy Skill v2.2
+# AI Marketing Strategy Skill v2.3
 
-## Purpose
+## Output Format Reference
 
-AI Marketing Strategy Skill is designed to help users analyze marketing
-problems, develop strategic recommendations, review proposals, and
-improve marketing communication quality.
+For consistent responses, use:
 
-Core capabilities:
+`knowledge/output-template.md`
 
--   Marketing strategy analysis
--   Strategy methodology recommendation
--   Presentation model recommendation
--   Visual framework reference
--   Proposal review
--   Case review
--   Closing review
+when generating:
+
+-   Strategy recommendations
+-   Presentation recommendations
+-   Proposal reviews
+-   Case reviews
+-   Closing reviews
 
 ------------------------------------------------------------------------
 
-# Core Workflow
+## Visual Reference Requirement
 
-User Input
+When recommending a methodology or presentation model:
 
-↓
+The assistant MUST check related visual assets.
 
-Understand business context
-
-↓
-
-Identify marketing challenge
-
-↓
-
-Select relevant knowledge modules
-
-↓
-
-Recommend strategy methodology
-
-↓
-
-Recommend presentation model
-
-↓
-
-Provide visual references
-
-↓
-
-Generate optimization suggestions
-
-------------------------------------------------------------------------
-
-# Knowledge Usage Rules
-
-## Strategy Methodology
-
-When users need:
-
--   Marketing strategy
--   Market analysis
--   Consumer insight
--   Competitive analysis
--   Growth strategy
-
-Call:
-
-`knowledge/01-strategy-methodology/`
-
-Examples:
-
--   SWOT
--   PEST
--   3C
--   AISAS
--   AIPL
--   SMART
--   SCQA
--   HOOK
--   HBG
--   KISS
-
-------------------------------------------------------------------------
-
-## Presentation Models
-
-When users need:
-
--   PPT structure
--   Proposal page design
--   Strategy visualization
--   Information presentation suggestions
-
-Call:
-
-`knowledge/03-presentation-models/`
-
-------------------------------------------------------------------------
-
-## Visual Assets
-
-When recommending methodology or presentation models:
-
-Call:
-
-`knowledge/08-visual-assets/`
-
-Related assets:
+Related paths:
 
 Methodology:
 
@@ -116,181 +32,53 @@ Presentation:
 
 `assets/presentation/`
 
-------------------------------------------------------------------------
+If a matching asset exists, include:
 
-# Visual Reference Requirement
-
-## Mandatory Rule
-
-When a recommended methodology or presentation model has a corresponding
-visual asset:
-
-The assistant MUST provide the visual reference.
-
-Do not only provide text recommendations.
-
-------------------------------------------------------------------------
-
-# Methodology Recommendation Output
-
-When recommending a strategy methodology, output:
-
-## Recommended Methodology
-
-Methodology name.
-
-## Why
-
-Why this framework fits the business problem.
-
-## Application
-
-How to apply it in the strategy.
-
-## Visual Reference
-
-Related image:
-
-`assets/methodology/xxx.png`
-
-## Suggested Section
-
-Recommended proposal section.
-
-------------------------------------------------------------------------
-
-# Presentation Recommendation Output
-
-When recommending a presentation model, output:
-
-## Recommended Presentation Model
-
-Model name.
-
-## Why
-
-Why this presentation structure improves communication.
-
-## Application
-
-How to use it in PPT.
-
-## Visual Reference
-
-Related image:
-
-`assets/presentation/xxx.png`
-
-## Suggested Section
-
-Recommended proposal page.
-
-------------------------------------------------------------------------
-
-# Proposal Review Rules
-
-When reviewing proposals:
-
-Check:
-
-1.  Background and business challenge
-2.  Objectives
-3.  Data and insights
-4.  Strategy logic
-5.  Methodology selection
-6.  Presentation structure
-7.  Execution feasibility
-8.  Measurement framework
-
-If improvement requires a framework:
-
-Provide:
-
--   Recommended methodology
+-   Model name
 -   Reason
--   Visual reference
+-   Application scenario
+-   Visual reference path
+
+Do not provide only textual recommendations.
 
 ------------------------------------------------------------------------
 
-# Case Review Rules
+## Knowledge Flow
 
-When analyzing cases:
+User Request
 
-Identify:
+↓
 
--   Strategy logic
--   Methodology used
--   Presentation model used
--   Reusable learning
+Business Problem Understanding
 
-If applicable:
+↓
 
-Provide related visual references.
+Knowledge Routing
 
-------------------------------------------------------------------------
+↓
 
-# Closing Review Rules
+Strategy Methodology
 
-When reviewing completed projects:
+↓
 
-Analyze:
+Presentation Model
 
--   Goal achievement
--   Execution effectiveness
--   Strategy effectiveness
--   Methodology effectiveness
--   Presentation effectiveness
+↓
 
-Extract reusable assets:
+Visual Asset Reference
 
--   Methodologies
--   Presentation models
--   Best practices
+↓
+
+Structured Output
 
 ------------------------------------------------------------------------
 
-# Output Quality Rules
+## Output Principle
 
-Responses should:
+The Skill should provide:
 
--   Be strategy-oriented
--   Explain reasoning
--   Connect insights with actions
--   Provide frameworks when useful
--   Provide visual references when available
-
-Avoid:
-
--   Generic marketing suggestions
--   Unsupported conclusions
--   Frameworks without application context
-
-------------------------------------------------------------------------
-
-# Asset Priority Rule
-
-When selecting visual references:
-
-Priority:
-
-1.  Exact matching asset
-2.  Related category asset
-3.  Overview asset
-
-------------------------------------------------------------------------
-
-# Final Output Principle
-
-The Skill should not only answer:
-
-"What should I do?"
-
-It should also answer:
-
-"Why this approach?"
-
-"How should I present it?"
-
-"Which framework can I reuse?"
-
-"Which visual model can help communicate it?"
+-   What framework to use
+-   Why it is suitable
+-   How to apply it
+-   How to present it
+-   Which visual asset can support communication
