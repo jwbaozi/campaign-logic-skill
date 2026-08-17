@@ -1,35 +1,13 @@
 # Campaign Execution Check
 
-## 定位
+Use this as the Campaign Logic Engine's quick execution audit. For a full plan, use `execution_planning_engine.md`.
 
-用于检查Campaign方案中：
+## Verify
 
-策略方向是否真正转化为执行动作。
+1. Every action responds to a stated strategy, audience barrier, or conversion goal.
+2. Each content, KOL/KOC, brand account, media, event, commerce, store, mini-program, CRM, and private-domain touchpoint has a distinct job.
+3. The path from exposure to participation, interest, action, purchase/lead, and sharing has an actual destination and incentive.
+4. Time, asset production, owner, approvals, platform capability, budget assumptions, risks, and contingency make the action feasible.
+5. Each KPI measures the action it is meant to evaluate; distinguish exposure, engagement, brand, conversion, and retention metrics.
 
-## 检查逻辑
-
-用户洞察
-↓
-策略方向
-↓
-传播主题
-↓
-内容动作
-↓
-渠道资源
-↓
-转化目标
-
-## 检查问题
-
-1. 执行动作是否回应策略？
-2. 内容形式是否符合用户场景？
-3. 渠道选择是否匹配目标用户？
-4. 资源投入是否支持核心目标？
-
-## 输出
-
-指出：
-- 逻辑一致部分
-- 存在偏差部分
-- 优化建议
+For each failing item, report the missing operational detail, the practical risk, and a concrete replacement action. Never accept “joint KOL promotion” as an execution plan without audience type, content brief, hook, handoff, paid amplification, destination, conversion lever, and follow-up.

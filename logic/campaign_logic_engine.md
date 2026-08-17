@@ -1,32 +1,27 @@
 # Campaign Logic Engine
 
-## 定位
+## Role
 
-继承 Campaign Logic Skill 核心能力，作为新版 AI Marketing Strategy Skill 的 Campaign审核模块。
+Preserve the original Campaign Logic capability as the central reasoning engine. Use it for campaign, promotion, media, activity, and proposal work. It diagnoses whether a recommendation follows from evidence and can become a real user journey, rather than merely checking whether sections exist.
 
-## 检查维度
+## Causal-chain test
 
-1. 目标检查
-- 营销目标是否明确
-- 用户、行为、指标是否清晰
+Test this chain in order:
 
-2. 洞察检查
-用户洞察 → 策略 → 创意动作 是否形成逻辑链。
+`Business problem → marketing objective → audience/job/barrier/motivation/context → insight → strategic choice → Core Idea → creative system → touchpoint roles → user journey → conversion/retention → action/KPI/learning`.
 
-3. 策略检查
-执行动作是否真正解决营销问题。
+For every broken link, name the upstream evidence missing or contradicted, the downstream decision made unreliable, and the smallest repair that restores the chain. Do not use AISAS, AIPL, HBG, or 5A automatically; use one only when it resolves a specific question and state its decision impact.
 
-4. 传播链路检查
+## Classification
 
-认知 → 兴趣 → 互动 → 转化 → 沉淀
+- `【缺失】`: a required decision or evidence item does not exist.
+- `【薄弱】`: it exists but is too generic, unmeasurable, unsupported, or insufficiently prioritized.
+- `【断层】`: the next decision cannot be derived from the previous one.
+- `【冲突】`: stated objectives, data, choices, or timing contradict each other.
+- `【空泛】`: a slogan or industry phrase has no observable action or choice behind it.
+- `【不可落地】`: an action lacks a mechanism, owner, timing, asset, channel, dependency, or measurement.
+- `【可保留】`: it has valid evidence, a clear role, and supports the chain.
 
-## 调用
+## Output
 
-当方案类型为 Campaign 推广方案时：
-
-调用：
-- campaign_logic_engine
-- AISAS
-- AIPL
-- HBG
-- 内容营销5A
+Use `logic/proposal_deep_review_engine.md` for detailed review and `logic/execution_planning_engine.md` for operational conversion. Retain the original discipline: analyze supplied material, distinguish project facts from reference data, identify usable content, and offer specific adjustments rather than wholesale generic rewrites.
