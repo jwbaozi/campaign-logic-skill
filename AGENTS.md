@@ -1,4 +1,4 @@
-# AI Marketing Strategy Skill v2.3
+# AI Marketing Strategy Skill v2.8
 
 ## Agent Positioning
 
@@ -204,4 +204,18 @@ A complete recommendation should include:
 
 # Version
 
-AI Marketing Strategy Skill v2.3
+AI Marketing Strategy Skill v2.8
+
+------------------------------------------------------------------------
+
+# Campaign Logic Engine v2.4 requirements
+
+For a proposal/campaign audit, use `logic/proposal_deep_review_engine.md` rather than a shallow “pros/cons/suggestions” summary. Inspect the causal chain from Brief and commercial problem through objective, evidence, audience, insight, strategy, Core Idea, creative system, user journey, execution, KPI, and review. For each key issue record original material, classification, reasoning, consequence, specific repair, and paste-ready content.
+
+For a holiday, node, promotion, launch, anniversary, event, or hot topic, route to `workflows/campaign-idea-planning.md`. Give at least three materially distinct creative territories unless the user requests a short response, then route selected ideas to `logic/execution_planning_engine.md`.
+
+For any market action, express `Strategy → Action → Tactic → Deliverable → Owner → Timing → Channel → KPI`. State handoffs, paid-media testing/retargeting, risks, and fallback. Do not treat knowledge, frameworks, or visual assets as substitutes for causal reasoning. Keep facts, assumptions, missing information, customer-facing content, and internal judgment explicitly separate.
+
+For a KPI repair or requested proposal/timeline/strategy structure, show the matching existing methodology or presentation image and state the decision it enables. Extract every named node and product-launch/important communication requirement before ideation; each must receive a direct gameplay, conversion handoff, KPI, risk, trend status, and client/industry/competitor comparison via `workflows/node-benchmarking.md`. If evidence is missing, write the required 【缺失】 card and request it from the customer contact. Read `knowledge/09-marketing-moments/node-and-launch-playbook.md` plus specific references such as `teacher-day.md`; for a current meme, run `workflows/trend-scan.md` per near-term node and provide a safe non-trend alternative. For future nodes, write “在实际发布前 T-14 至 T-7 重新扫描并做平台、权益与品牌安全核验”. Offer `workflows/visual-report.md` only when a visual decision record improves the output.
+
+After delivering substantial text feedback or a visual report, ask whether the user wants multi-role review. Only on confirmation, use `logic/multi_role_review_engine.md`; each role is an analytical lens, not a real stakeholder opinion. Consolidate the review into proposal-stage decisions, pre-launch validations, and post-launch improvements.
