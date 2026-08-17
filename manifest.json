@@ -1,7 +1,7 @@
 {
   "name": "AI Marketing Strategy Skill",
-  "version": "2.3.0",
-  "description": "An AI-powered marketing strategy assistant for campaign analysis, strategy development, proposal optimization, and marketing workflow support.",
+  "version": "3.0.0",
+  "description": "An AI-powered marketing strategy assistant that benchmarks every named node and launch against the client, industry, and competitors when evidence is available.",
   "original_project": "Campaign Logic Skill",
   "core_engine": "Campaign Logic Engine",
   "capabilities": [
@@ -13,7 +13,19 @@
     "presentation_model_recommendation",
     "proposal_simulation",
     "knowledge_base_routing",
-    "visual_asset_matching"
+    "visual_asset_matching",
+    "proposal_deep_review",
+    "marketing_moment_campaign_ideas",
+    "execution_planning",
+    "visual_methodology_and_presentation_routing",
+    "marketing_moment_playbooks",
+    "current_trend_scan",
+    "visual_report_generation",
+    "on_demand_multi_role_review",
+    "all_node_and_launch_coverage",
+    "node_and_launch_benchmarking",
+    "mandatory_closing_audit_report",
+    "direct_proposal_audit_report"
   ],
   "knowledge_sources": [
     "IMA industry knowledge base",
