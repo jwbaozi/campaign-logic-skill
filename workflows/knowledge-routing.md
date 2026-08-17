@@ -230,6 +230,8 @@ Knowledge Routing 的目标：
 - Presentation Model Library
 - Marketing Expression Library
 
+同时调用 `logic/execution_planning_engine.md`，输出公域、商域和私域的预热→引爆→转化→沉淀链路；明确开屏、信息流、直播、品牌号、达人、用户内容和电商跳转等环节仅在适用时使用及其承接。
+
 
 ---
 
@@ -241,6 +243,8 @@ Knowledge Routing 的目标：
 - Strategy Methodology Library
 - Presentation Model Library
 - Marketing Expression Library
+
+若为节点、节日、大促、周年、赛事、展会或热点，优先调用 `logic/marketing_moment_campaign_idea_engine.md`，先判断相关性，再给差异化创意方向与执行链。
 
 
 ---

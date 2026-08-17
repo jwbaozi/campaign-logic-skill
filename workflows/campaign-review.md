@@ -1,83 +1,15 @@
-# Campaign Review Workflow
+# Campaign Review Workflow v2.4
 
-## 定位
+## Use when
 
-继承 Campaign Logic Skill 核心能力。
+Use for campaign, promotion, activity, media, or paid-distribution plans. Preserve the Campaign Logic core; a complete-looking deck still needs causal-chain and operational review.
 
-用于审核：
+## Review
 
-- Campaign方案
-- 推广方案
-- 活动方案
-- 投放方案
+1. Read intake and set the material boundary.
+2. Apply `logic/campaign_logic_engine.md` to examine: commercial problem, marketing objective, audience, evidence, insight, strategy, creative theme, actions, resource roles, user path, execution, and KPI.
+3. Apply `logic/proposal_deep_review_engine.md` and return a detailed issue card for each key issue: original wording, classification, reasoning, impact, repair, and paste-ready content.
+4. Apply `logic/campaign_execution_check.md` and `logic/execution_planning_engine.md` to turn recommendations into concrete workstreams.
+5. For node and event campaigns, add `logic/marketing_moment_campaign_idea_engine.md` to check relevance and creative differentiation.
 
-## 检查维度
-
-### 项目背景
-
-检查：
-
-- 客户背景
-- 产品特点
-- 市场环境
-
-### 营销目标
-
-检查：
-
-- 目标是否明确
-- 指标是否匹配
-
-### 数据分析
-
-检查：
-
-- 数据来源
-- 数据时间
-- 数据口径
-- 数据是否支持结论
-
-### 核心发现
-
-检查：
-
-数据
-
-↓
-
-问题
-
-↓
-
-机会
-
-是否成立。
-
-### 策略逻辑
-
-检查：
-
-用户洞察
-
-↓
-
-策略方向
-
-↓
-
-创意主题
-
-↓
-
-执行动作
-
-是否一致。
-
-### 执行检查
-
-检查：
-
-- 内容是否符合策略
-- 渠道是否匹配用户
-- 资源是否支持目标
-- 排期是否合理
+When the user only asks for an audit, prioritize evidence-backed diagnosis and do not force a new end-to-end plan or a stack of methodologies.
