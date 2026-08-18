@@ -11,3 +11,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+__pycache__/
+ppt-audit-temp/
+
+# Local/client audit outputs: retain in delivery folders, never publish to the public skill repository
+*_审核报告.md
+*_审核报告.html
+*_审计报告.md
+*_审计报告.html
