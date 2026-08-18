@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 
 ------------------------------------------------------------------------
 
+# v3.1.0
+
+## Added
+
+- Added a conditional `建议补充外部证据｜腾讯 ima 知识库` card to substantive proposal, node/launch, and closing audit reports when missing external market, industry, consumer, trend, or competitor evidence would materially change a conclusion.
+- Added the clickable shared Tencent ima knowledge-base link and three task-specific, copyable query directions to the audit card.
+
+## Improved
+
+- Preserved the IMA card in both the Markdown audit source and generated HTML audit report.
+- Clarified that IMA is not inserted mechanically, must state the decision it can validate, and must never be represented as read, current, or verified unless the relevant material and date were actually supplied or accessed.
+- Retained the non-blocking fallback: if ima requires login, is inaccessible, or no result is supplied, continue the audit and record the evidence gap and validation route.
+- Restored a standalone `当下热梗/趋势扫描` section for every substantive audit or plan with a near-term named node or launch, even when the user does not explicitly ask for a hot meme. The report must retain candidate(s), source/capture date, fit and risk judgment, usable scope, and a non-trend fallback; an empty scan is reported rather than silently omitted.
+
+## Validated
+
+- Added regression checks for the linked IMA audit card across Skill routing, proposal review, visual-report, knowledge-routing, and IMA usage guidance.
+- Tested the updated audit with a 2026 H2 brief that includes product launch, Teacher's Day, Christmas, Spring Festival, competitor comparison, and missing external evidence.
+
+------------------------------------------------------------------------
+
 # v3.0.0
 
 ## Validated
