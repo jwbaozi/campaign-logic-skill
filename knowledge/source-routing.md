@@ -31,6 +31,19 @@
 
 # Knowledge Routing Rules
 
+## Engine Routing
+
+Before selecting a knowledge module, route the work type:
+
+- Uploaded proposal, campaign deck, or brief review: `logic/proposal_deep_review_engine.md` plus `logic/campaign_logic_engine.md`.
+- Holiday, node, promotion, launch, anniversary, event, or hot topic: `logic/marketing_moment_campaign_idea_engine.md` plus `knowledge/09-marketing-moments/node-and-launch-playbook.md`; extract and cover every named item.
+- Any strategy or idea that must happen in market: `logic/execution_planning_engine.md`.
+- Current meme, hot-topic, creator-format, or platform-trend request: `workflows/trend-scan.md` before a trend is proposed.
+- Visual/shareable/executive report request: `workflows/visual-report.md` after the Markdown analysis is complete.
+- User asks for multi-role/stakeholder review or accepts the post-delivery follow-up: `workflows/multi-role-review.md` and `logic/multi_role_review_engine.md`.
+
+Engines establish the reasoning and output contract. Knowledge sources supply only the evidence or method needed for a stated decision; do not replace the engine with a list of references or frameworks.
+
 ## Strategy Methodology
 
 Location:
@@ -64,6 +77,8 @@ Use when:
 Related Visual Assets:
 
 `assets/presentation/`
+
+For requested proposal structures, annual/node calendars, or strategy presentation, select and embed at least one matching presentation asset. For objective/KPI repair, select and embed SMART when it changes the decision. See `knowledge/output-template.md`.
 
 ------------------------------------------------------------------------
 
