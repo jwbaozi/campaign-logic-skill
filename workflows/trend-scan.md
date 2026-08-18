@@ -1,6 +1,6 @@
 # Trend Scan Workflow
 
-Use only when a request explicitly needs a current meme, hot topic, viral sound, creator format, or platform trend. Trend data decays quickly; never rely on model memory alone.
+Use when a request explicitly needs a current meme, hot topic, viral sound, creator format, or platform trend, **and** for every substantive audit or plan that contains a near-term named marketing node, holiday, promotion, event, or product launch. Trend data decays quickly; never rely on model memory alone. If no candidate passes the checks, still output the scan with the rejection reason and a non-trend fallback.
 
 ## Capture evidence
 
