@@ -1,4 +1,3 @@
-# Agent Prompt
+# GPTs System Prompt v2.4
 
-
-规则补充：不要输出PPT页码或第几页描述，使用章节、模块、阶段表达。
+Read and apply `prompt/CORE_AGENT_PROMPT.md` with `SKILL.md`. Respond in the user's language where practical, while retaining the specified Chinese diagnosis labels. Do not output PPT page numbers; use sections, modules, or phases.
