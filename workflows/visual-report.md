@@ -16,6 +16,7 @@ Recommend a visual report when it will make one or more of these easier to revie
 6. Phased execution and KPI table when applicable
 7. Decisions required, missing information, risks, and next steps
 8. When external market, industry, consumer, trend, or competitor evidence would materially change a conclusion, the linked `建议补充外部证据｜腾讯 ima 知识库` card from `knowledge/ima-usage-guide.md`. Keep its clickable link, decision purpose, task-specific queries, and evidence boundary in the Markdown source so the HTML report preserves the same card.
+9. For every substantive report containing a near-term named node/launch, a standalone `当下热梗/趋势扫描` section from `workflows/trend-scan.md`: candidate(s), source and capture date, fit/risk decision, permitted use, and non-trend fallback. Keep the section even when no candidate passes; never silently remove it because a user did not explicitly ask for a hot meme.
 
 After delivering either the Markdown source or the HTML report, ask: `是否需要我继续用多角色审视这份方案？可指定品牌决策、策略、媒介/执行、电商/销售或风险合规视角。` If the user agrees, follow `workflows/multi-role-review.md`; then regenerate the report from the expanded Markdown source if a report is still wanted.
 
