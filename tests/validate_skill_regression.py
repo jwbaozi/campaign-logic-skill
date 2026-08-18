@@ -79,13 +79,20 @@ def main() -> None:
     read(root, "scripts/generate_visual_report.py")
 
     ima = read(root, "knowledge/ima-usage-guide.md")
-    for phrase in ("https://ima.qq.com/wiki/?shareId=", "不阻塞方案审核", "不把未读取的 IMA 内容表述为已验证事实"):
+    for phrase in ("https://ima.qq.com/wiki/?shareId=", "不阻塞方案审核", "不把未读取的 IMA 内容表述为已验证事实", "建议补充外部证据｜腾讯 ima 知识库", "[打开你的腾讯 ima 共享知识库]", "建议检索："):
         require(ima, phrase, "knowledge/ima-usage-guide.md")
+
+    for source in ("SKILL.md", "workflows/proposal-review.md", "workflows/visual-report.md", "workflows/knowledge-routing.md"):
+        require(read(root, source), "建议补充外部证据｜腾讯 ima 知识库", source)
 
     for readme_name in ("README.md", "README_CN.md"):
         readme = read(root, readme_name)
         for phrase in ("mermaid", "HTML", "ima.qq.com/wiki/?shareId="):
             require(readme, phrase, readme_name)
+
+    claude = read(root, "CLAUDE.md")
+    for phrase in ("AI Marketing Strategy Skill v3.0", "Markdown 审核源稿", "自包含 HTML 审计报告", "T-14 至 T-7"):
+        require(claude, phrase, "CLAUDE.md")
 
     closing = read(root, "workflows/closing-review.md")
     for phrase in ("必须", "Markdown 审计报告", "自包含 HTML 审计报告", "Mandatory Closing Audit Report", "证据台账", "多角色审视提问"):
