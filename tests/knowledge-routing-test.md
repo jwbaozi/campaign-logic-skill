@@ -2,38 +2,18 @@
 
 ## Purpose
 
-验证问题是否进入正确知识模块。
+验证不同问题是否进入正确的知识模块。
 
 ## Cases
 
-问题：
+| 输入问题 | 预期知识模块 |
+| --- | --- |
+| 如何做品牌定位？ | Brand Theory |
+| CTR 下降怎么办？ | Media Metrics |
+| 新品上市如何规划？ | Strategy Methodology |
+| PPT 怎么呈现？ | Presentation Models |
 
-如何做品牌定位？
+## Pass Criteria
 
-调用：
-
-Brand Theory
-
-问题：
-
-CTR下降怎么办？
-
-调用：
-
-Media Metrics
-
-问题：
-
-新品上市如何规划？
-
-调用：
-
-Strategy Methodology
-
-问题：
-
-PPT怎么呈现？
-
-调用：
-
-Presentation Models
+- 不以关键词机械堆叠模型。
+- 每次路由必须能解释其如何改变后续决策。
