@@ -15,6 +15,7 @@ Use for a marketing plan, campaign deck, brief, framework, or multi-file proposa
 5. Use a methodology, presentation model, or visual asset only when it resolves a named decision. For goal/KPI repair, use SMART when appropriate; for a requested proposal structure, timeline, or strategy presentation, recommend and embed at least one fitting existing presentation model. Follow `knowledge/output-template.md`; embed assets in Markdown rather than printing paths.
 6. Do not block on missing context. Label absent facts, explain the effect, and give a practical validation route; then finish the strongest evidence-bounded review possible from the uploaded material.
 7. For a substantive uploaded proposal/deck, generate the Markdown audit source and self-contained HTML audit report through `workflows/visual-report.md` without waiting for the user to ask for a report. Use the same framework as the diagnosis and closing-audit reports: factual boundary, overall judgment, retained items and classifications, methodology, presentation model, execution/KPI, evidence ledger, issue cards, repaired chain, audience separation, and missing-information route.
+8. When missing market, industry, consumer, trend, or competitor evidence would change a material finding, add the linked `建议补充外部证据｜腾讯 ima 知识库` card from `knowledge/ima-usage-guide.md` to the Markdown audit and HTML report. State the decision it can validate, provide three task-specific query directions, and retain the non-blocking evidence boundary. Do not add the card merely because IMA exists.
 
 ## Output
 
@@ -25,6 +26,7 @@ Use for a marketing plan, campaign deck, brief, framework, or multi-file proposa
 5. Execution and KPI map
 6. Customer-facing content, presentation talking points, internal confirmations, and internal-only risks
 7. Missing information, impact, and a practical validation/search route
+8. Conditional IMA knowledge-base recommendation card when external evidence would materially change the judgment
 
 For a substantive uploaded proposal/deck, generate `workflows/visual-report.md` after the Markdown review. The report must remain traceable to the same evidence and labels. Do not use a request for missing information as a substitute for direct delivery.
 

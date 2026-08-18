@@ -298,6 +298,8 @@ Business Result
 
 Tencent ima Knowledge Base
 
+当该缺口会改变方案审核、策略或节点玩法的结论时，在 Markdown 审核源稿和 HTML 报告中输出 `knowledge/ima-usage-guide.md` 的 `建议补充外部证据｜腾讯 ima 知识库` 卡。该卡必须保留可点击共享链接、检索目的、三条任务化检索词和“未读取结果不当作事实”的边界。
+
 如果无法访问：
 
 不要停止分析。
@@ -311,6 +313,7 @@ Tencent ima Knowledge Base
 - 搜索主题
 - 关键词组合
 - 推荐查询方向
+- 可点击的腾讯 ima 共享知识库链接
 
 
 ---
