@@ -1,6 +1,6 @@
 # GitHub更新说明
 
-# GitHub 更新说明｜v3.0.0
+# GitHub 更新说明｜v3.1.0
 
 本次发布保留 Campaign Logic 审核能力，并完成多轮方案、节点、趋势、多角色、结案与 51 页 PPT 审核测试。
 
