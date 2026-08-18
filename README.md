@@ -15,10 +15,11 @@ business teams analyze requirements, review proposal logic, apply
 methodologies, access knowledge resources, and improve presentation
 quality.
 
-## Release v3.0: Tested Direct-Audit Delivery
+## Release v3.1: Tested Direct-Audit Delivery
 
 This release was iterated through multiple realistic marketing tests: proposal-logic review, marketing-moment planning, trend and risk handling, multi-role review, campaign closing review, and proposal audit. It now delivers an evidence-bounded text diagnosis plus formal report artifacts without making a user supply missing context before the review starts.
 
+![Audit-Report](assets/Audit-Report.png)
 ------------------------------------------------------------------------
 
 # Core Capabilities
