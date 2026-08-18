@@ -22,8 +22,8 @@ def require(text: str, phrase: str, source: str) -> None:
 def main() -> None:
     root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
     manifest = json.loads(read(root, "manifest.json"))
-    if manifest.get("version") != "3.0.0":
-        raise AssertionError("manifest.json version must be 3.0.0")
+    if manifest.get("version") != "3.1.0":
+        raise AssertionError("manifest.json version must be 3.1.0")
 
     skill = read(root, "SKILL.md")
     for phrase in (
@@ -43,6 +43,8 @@ def main() -> None:
         "Markdown + self-contained HTML audit report",
         "legacy visual-asset display contract",
         "suggested proposal/PPT section",
+        "当下热梗/趋势扫描",
+        "even if the user did not explicitly ask for a meme",
     ):
         require(skill, phrase, "SKILL.md")
 
@@ -67,7 +69,7 @@ def main() -> None:
         require(node_playbook, phrase, "knowledge/09-marketing-moments/node-and-launch-playbook.md")
 
     trend = read(root, "workflows/trend-scan.md")
-    for phrase in ("capture date/time", "brand/product fit", "non-trend creative route"):
+    for phrase in ("capture date/time", "brand/product fit", "non-trend creative route", "If no candidate passes"):
         require(trend, phrase, "workflows/trend-scan.md")
 
     benchmarking = read(root, "workflows/node-benchmarking.md")
@@ -76,6 +78,7 @@ def main() -> None:
 
     report = read(root, "workflows/visual-report.md")
     require(report, "generate_visual_report.py", "workflows/visual-report.md")
+    require(report, "当下热梗/趋势扫描", "workflows/visual-report.md")
     read(root, "scripts/generate_visual_report.py")
 
     ima = read(root, "knowledge/ima-usage-guide.md")
@@ -99,7 +102,7 @@ def main() -> None:
         require(closing, phrase, "workflows/closing-review.md")
 
     proposal = read(root, "workflows/proposal-review.md")
-    for phrase in ("Do not block on missing context", "Markdown audit source", "self-contained HTML audit report", "without waiting for the user to ask for a report"):
+    for phrase in ("Do not block on missing context", "Markdown audit source", "self-contained HTML audit report", "without waiting for the user to ask for a report", "当下热梗/趋势扫描"):
         require(proposal, phrase, "workflows/proposal-review.md")
 
     report_fixture = read(root, "tests/fixtures/actual-project-review.md")
@@ -114,7 +117,7 @@ def main() -> None:
     for case in range(12, 25):
         require(cases, f"测试 {case}", "tests/TEST_CASES.md")
 
-    print("Static regression checks passed: v3.0 direct proposal and closing audit reports, IMA/README retention, node benchmarking, all-node coverage, visual routing, trend scan, visual report, multi-role review, and cases 12-24.")
+    print("Static regression checks passed: v3.1 linked IMA audit card, direct proposal and closing audit reports, IMA/README retention, node benchmarking, all-node coverage, visual routing, trend scan, visual report, multi-role review, and cases 12-24.")
 
 
 if __name__ == "__main__":
