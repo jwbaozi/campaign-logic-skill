@@ -1,4 +1,4 @@
-# CLAUDE.md - AI Marketing Strategy Skill v2.0
+# CLAUDE.md - AI Marketing Strategy Skill v3.0
 
 ## 项目定位
 
@@ -69,6 +69,8 @@ Claude Code 在处理本项目时：
 - 方案优化
 - 结案复盘
 - 提案准备
+- 节点/上新创意与执行规划
+- 趋势扫描、可视化审核报告与多角色审视
 
 ---
 
@@ -81,6 +83,7 @@ Claude Code 在处理本项目时：
 - 原 Campaign Logic 能力是否保留；
 - 新增模块是否正常调用；
 - 输出是否符合预期。
+- 已上传方案/PPT 是否直接交付文字与正式审核报告。
 
 ---
 
@@ -193,6 +196,16 @@ IMA行业与市场知识库
 - 为什么这样判断；
 - 使用什么方法；
 - 如何应用到方案中。
+
+涉及方案诊断、节点创意或执行时，分别调用 `logic/proposal_deep_review_engine.md`、`logic/marketing_moment_campaign_idea_engine.md`、`logic/execution_planning_engine.md`。这些 Engine 是对 Campaign Logic 的强化，不替代现有知识路由和工作流。
+
+涉及实质性方案/PPT 审核时，不因 Brief、预算或数据缺失停在追问：先声明事实边界并完成审核，再交付文字结论、Markdown 审核源稿和自包含 HTML 审核报告。缺失信息必须标记影响与验证路径，不得虚构。
+
+涉及结案/复盘时，同样必须生成 Markdown 审计源稿和自包含 HTML 审计报告；将实际结果、规划目标和待核验主张分开呈现。
+
+涉及节点、上新、大促或热点时，覆盖材料中的全部节点与重要传播要求。使用当下热梗前必须有来源、抓取日期、适配和风险判断；未来节点使用“在实际发布前 T-14 至 T-7 重新扫描并做平台、权益与品牌安全核验”，并提供非热梗备选。
+
+推荐方法论或呈现模型且存在视觉资产时，输出模型名称、原因、应用、嵌入的 Markdown 图片和建议方案/PPT 章节；不得只提供文件路径。
 
 ---
 
