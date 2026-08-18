@@ -1,7 +1,7 @@
 {
   "name": "AI Marketing Strategy Skill",
-  "version": "3.0.0",
-  "description": "An AI-powered marketing strategy assistant that benchmarks every named node and launch against the client, industry, and competitors when evidence is available.",
+  "version": "3.1.0",
+  "description": "An AI-powered marketing strategy assistant that generates direct audit reports and conditionally links the shared Tencent ima knowledge base when external evidence can change a decision.",
   "original_project": "Campaign Logic Skill",
   "core_engine": "Campaign Logic Engine",
   "capabilities": [
@@ -25,7 +25,8 @@
     "all_node_and_launch_coverage",
     "node_and_launch_benchmarking",
     "mandatory_closing_audit_report",
-    "direct_proposal_audit_report"
+    "direct_proposal_audit_report",
+    "linked_ima_audit_recommendation"
   ],
   "knowledge_sources": [
     "IMA industry knowledge base",
